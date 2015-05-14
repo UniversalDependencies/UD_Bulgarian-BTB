@@ -1,0 +1,8 @@
+The BulTreeBank version with Universal Dependencies (BTB-UD) is distributed
+under the following license:
+CC BY-NC-SA 3.0.
+
+For informal information please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/.
+For formal representation please see here:
+http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.
