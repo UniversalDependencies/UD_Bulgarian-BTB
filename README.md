@@ -77,3 +77,9 @@ Kiril Simov, Petya Osenova, Alexander Simov, Milen Kouylekov. Design and
 Implementation of the Bulgarian HPSG-based Treebank. In Erhard Hinrichs and
 Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
+
+
+Documentation status: partial
+Data source: unknown
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0
