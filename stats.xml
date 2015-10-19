@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>9405</sentences><tokens>125592</tokens><words>125592</words><fused>0</fused></total>
+  </size>
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="16">
+    <tag name="ADJ">10936</tag><!-- нов, друг, голям, български, народен, пръв, държавен, цял, европейски, политически -->
+    <tag name="ADP">17621</tag><!-- на, в, за, от, с, по, до, след, като, през -->
+    <tag name="ADV">5248</tag><!-- много, още, вчера, така, само, когато, вече, обаче, там, защото -->
+    <tag name="AUX">1706</tag><!-- съм, бъда, бивам -->
+    <tag name="CONJ">3982</tag><!-- и, но, а, или, нито, та, ни, ама, ала, тоест -->
+    <tag name="DET">1744</tag><!-- този, всеки, един, наш, мой, свой, такъв, какъв, някой, някакъв -->
+    <tag name="INTJ">1215</tag><!-- не, да, о, уви, кис, ах, брей, я, дрън-дрън, ех -->
+    <tag name="NOUN">27640</tag><!-- година, страна, време, хора, лев, президент, въпрос, процент, ден, проблем -->
+    <tag name="NUM">1696</tag><!-- два, един, три, двама, 10, двадесет, четири, шест, седем, 000 -->
+    <tag name="PART">3888</tag><!-- да, ще, ли, дори, дали, си, пък, нито, нека, ето -->
+    <tag name="PRON">8150</tag><!-- аз, се, който, този, свой, мой, наш, неин, техен, всеки -->
+    <tag name="PROPN">6941</tag><!-- българия, софия, иван, ес, европа, сдс, петър, стоянов, костов, турция -->
+    <tag name="PUNCT">18013</tag><!-- ., ,, &quot;, -, ?, (, ), :, !, ... -->
+    <tag name="SCONJ">1226</tag><!-- че, ако, като, докато, щом, понеже, дорде, следователно, додето -->
+    <tag name="VERB">15584</tag><!-- съм, имам, нямам, мога, има, трябва, кажа, искам, стана, съобщя -->
+    <tag name="X">2</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="42">
+    <feat name="Animacy" value="Anim" upos="NUM,PRON">49</feat><!-- кого, когото, никого, мнозина, малцина, някого, всекиго, никому -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">10687</feat><!-- е, са, има, бе, няма, беше, може, трябва, бяха, съм -->
+    <feat name="Aspect" value="Perf" upos="ADJ,AUX,VERB">7530</feat><!-- бъде, бъдат, съобщи, стана, каза, предаде, стане, заяви, направи, дойде -->
+    <feat name="Case" value="Acc" upos="PRON,PROPN">3660</feat><!-- се, го, него, ги, я, нас, тях, ме, ни, нея -->
+    <feat name="Case" value="Dat" upos="PRON">672</feat><!-- си, му, ми, й, ти, им, ни, ви, мене, мен -->
+    <feat name="Case" value="Nom" upos="PRON">3011</feat><!-- това, си, той, които, тя, който, те, аз, която, което -->
+    <feat name="Case" value="Voc" upos="ADJ,PROPN">26</feat><!-- Нови, уважаеми, драги, млади, Велики, Господи, Калине, Преподобни, Янке, други -->
+    <feat name="Definite" value="Def" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN">14904</feat><!-- хората, края, страната, народното, българската, президентът, правителството, началото, държавата, другите -->
+    <feat name="Definite" value="Ind" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">33792</feat><!-- г., България, София, време, много, година, един, една, години, Иван -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">9999</feat><!-- също, добре, други, народното, българската, нова, ясно, другите, нови, наистина -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">16509</feat><!-- г., България, тя, София, тази, година, която, я, една, години -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">21152</feat><!-- той, го, който, този, му, %, един, лв., него, Иван -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9282</feat><!-- това, време, което, събрание, едно, го, то, народното, решение, всичко -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">112</feat><!-- би, бих, биха, бихте, бихме -->
+    <feat name="Mood" value="Imp" upos="VERB">197</feat><!-- вземи, Излез, Прочети, виж, върни, ела, иди, дай, кажи, направи -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">14474</feat><!-- е, са, има, бе, няма, бъде, беше, може, трябва, бяха -->
+    <feat name="Negative" value="Neg" upos="PART">22</feat><!-- нито -->
+    <feat name="Number" value="Count" upos="NOUN">749</feat><!-- %, лв., млн., $, месеца, дни, млрд., долара, часа, лева -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18660</feat><!-- са, които, те, много, всички, г., бяха, тези, ги, ни -->
+    <feat name="Number" value="Ptan" upos="NOUN,PROPN">261</feat><!-- хората, хора, души, преговори, преговорите, финансите, Кремиковци, боеприпаси, книжа, ОАЕ -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">49817</feat><!-- е, това, той, го, има, България, бе, няма, тя, бъде -->
+    <feat name="NumType" value="Card" upos="ADV,NUM">2042</feat><!-- много, две, повече, два, 2, една, един, толкова, 1, 3 -->
+    <feat name="NumType" value="Ord" upos="ADJ">711</feat><!-- 2000, 2001, 1, първата, първите, втори, първи, втора, първото, 1998 -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2539</feat><!-- ни, ми, аз, съм, нас, ние, сме, ме, нашите, бих -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1162</feat><!-- ти, ви, си, те, вие, сте, вас, тебе, можеш, имате -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">14690</feat><!-- е, са, му, той, го, има, бе, няма, тя, бъде -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">1532</feat><!-- си, му, ни, й, им, ми, нашите, своите, своя, нашата -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1548</feat><!-- това, този, тази, тези, така, тук, тъй, тогава, там, толкова -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">422</feat><!-- един, една, едно, нещо, някои, някой, нещата, някакво, понякога, някаква -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">376</feat><!-- как, кой, какво, къде, колко, кога, кого, какви, кои, каква -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">150</feat><!-- нищо, никой, никога, никакъв, никакви, никого, никаква, никакво, никак, отникъде -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">6935</feat><!-- се, си, му, той, го, ни, те, тя, й, им -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1038</feat><!-- които, който, когато, която, което, както, където, колкото, каквото, когото -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">319</feat><!-- всички, всеки, всичко, всяка, всяко, всякакви, отвсякъде, всичкото, всякакъв, Вси -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">3221</feat><!-- се, си, себе, своите, своя, своята, своето, свои, свой, свое -->
+    <feat name="Tense" value="Imp" upos="VERB">854</feat><!-- нямаше, имаше, имало, трябваше, можеше, щеше, гледаше, виждаше, говореше, трябвало -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">4498</feat><!-- бе, бяха, съобщи, беше, стана, каза, предаде, бил, заяви, били -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">10559</feat><!-- е, са, има, няма, бъде, може, трябва, съм, бъдат, могат -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">16882</feat><!-- е, са, има, бе, няма, бъде, беше, може, трябва, бяха -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1335</feat><!-- бил, били, била, било, миналата, следващата, въоръжените, останалите, миналия, свързани -->
+    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">16211</feat><!-- е, са, има, бе, няма, бъде, беше, може, трябва, бяха -->
+    <feat name="Voice" value="Pass" upos="ADJ,VERB">1697</feat><!-- въоръжените, свързани, определен, избран, направено, приета, цитиран, определени, организираната, представена -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="30">
+    <dep name="acl">1051</dep>
+    <dep name="advcl">1258</dep>
+    <dep name="advmod">4437</dep>
+    <dep name="amod">9528</dep>
+    <dep name="appos">38</dep>
+    <dep name="aux">4839</dep>
+    <dep name="auxpass">1</dep>
+    <dep name="case">18363</dep>
+    <dep name="cc">3992</dep>
+    <dep name="ccomp">2428</dep>
+    <dep name="conj">4573</dep>
+    <dep name="cop">1944</dep>
+    <dep name="csubj">368</dep>
+    <dep name="csubjpass">16</dep>
+    <dep name="det">1586</dep>
+    <dep name="discourse">591</dep>
+    <dep name="dobj">5332</dep>
+    <dep name="expl">2790</dep>
+    <dep name="iobj">2655</dep>
+    <dep name="mark">1410</dep>
+    <dep name="mwe">671</dep>
+    <dep name="name">1110</dep>
+    <dep name="neg">1137</dep>
+    <dep name="nmod">17293</dep>
+    <dep name="nsubj">8508</dep>
+    <dep name="nsubjpass">789</dep>
+    <dep name="nummod">1460</dep>
+    <dep name="punct">18013</dep>
+    <dep name="root">9405</dep>
+    <dep name="vocative">6</dep>
+  </deps>
+</treebank>
