@@ -7,6 +7,9 @@
   <size>
     <total><sentences>9405</sentences><tokens>125592</tokens><words>125592</words><fused>0</fused></total>
   </size>
+  <lemmas unique="13507" /><!-- ., ,, на, съм, и, аз, в, се, да, за, &quot;, от, с, не, този -->
+  <forms unique="23323" /><!-- ., ,, на, и, в, се, да, за, &quot;, от, е, с, не, ще, си -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">10936</tag><!-- нов, друг, голям, български, народен, пръв, държавен, цял, европейски, политически -->
