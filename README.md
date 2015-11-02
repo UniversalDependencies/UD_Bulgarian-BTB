@@ -11,7 +11,7 @@ All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
 trained annotators.
 
-The BTB-UD contains in its first release 9 405 sentences which exclude
+The BTB-UD contains in its second release 11 138 sentences which exclude
 ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
@@ -34,8 +34,8 @@ divided by 10, the reminder is 1.
 
 STATISTICS
 ==========
-Number of Sentences: 9 405
-Number of Tokens: 125 592
+Number of Sentences: 11 138
+Number of Tokens: 156 323
 
 ACKNOWLEDGEMENTS AND REFERENCES
 ===============================
