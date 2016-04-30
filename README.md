@@ -1,8 +1,8 @@
 TREEBANK DESCRIPTION
 ====================
 
-The original treebank is HPSG-based. It consists of 215 000 tokens (over 15
-000 sentences).
+The original treebank is HPSG-based. It consists of 215 000 tokens 
+(over 15 000 sentences).
 It consists of two parts: core set, which is a test suite for Bulgarian,
 consisting of 1500 sentences, extracted from Bulgarian grammars; remaining
 set, which comprizes isolated random sentences and running texts from
@@ -11,10 +11,12 @@ All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
 trained annotators.
 
-The BTB-UD contains in its first release 9 405 sentences which exclude
+The BTB-UD contains in its third release 11 138 sentences which exclude
 ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
+
+In the third release we did not add new sentences. We improve the annotation.
 
 The rest of the sentences will be converted for the next release.
 
@@ -34,8 +36,8 @@ divided by 10, the reminder is 1.
 
 STATISTICS
 ==========
-Number of Sentences: 9 405
-Number of Tokens: 125 592
+Number of Sentences: 11 138
+Number of Tokens: 156 323
 
 ACKNOWLEDGEMENTS AND REFERENCES
 ===============================
@@ -80,6 +82,9 @@ Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 
 Documentation status: partial
-Data source: unknown
+Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
+Genre: news legal fiction misc
+Contributors: Simov, Kiril; Osenova, Petya
+
