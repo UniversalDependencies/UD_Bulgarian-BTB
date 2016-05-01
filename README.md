@@ -22,6 +22,7 @@ In the third release we did not add new sentences. We have improved the annotati
 - se-passives
 - cop
 - case/det for short possessive pronouns
+
 We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
 
 
