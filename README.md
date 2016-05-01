@@ -16,7 +16,14 @@ ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
 
-In the third release we did not add new sentences. We improve the annotation.
+In the third release we did not add new sentences. We have improved the annotation checking and correct the annotation of the following relations:
+- appositions
+- xcomp
+- se-passives
+- cop
+- case/det for short possessive pronouns
+We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
+
 
 The rest of the sentences will be converted for the next release.
 
