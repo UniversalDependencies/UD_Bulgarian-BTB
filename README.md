@@ -16,12 +16,12 @@ ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
 
-In the third release we did not add new sentences. We have improved the annotation checking and correct the annotation of the following relations:
-- appositions
-- xcomp
-- se-passives
-- cop
-- case/det for short possessive pronouns
+In the third release we did not add new sentences. We have improved the annotation through checking and correcting the following relations:
+- appositions (the wrongly annotated vocatives and appositions were corrected as nmod)
+- xcomp (the ccomp relations were checked for control structures and re-annotated as xcomp)
+- nsubjpass and csubjpass in se-passives were annotated
+- cop relation direction was corrected
+- the relation between nouns and short possessive pronouns was re-annotated from case to det
 
 We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
 
