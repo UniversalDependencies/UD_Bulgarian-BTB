@@ -1,8 +1,8 @@
 TREEBANK DESCRIPTION
 ====================
 
-The original treebank is HPSG-based. It consists of 215 000 tokens (over 15
-000 sentences).
+The original treebank is HPSG-based. It consists of 215 000 tokens 
+(over 15 000 sentences).
 It consists of two parts: core set, which is a test suite for Bulgarian,
 consisting of 1500 sentences, extracted from Bulgarian grammars; remaining
 set, which comprizes isolated random sentences and running texts from
@@ -11,10 +11,20 @@ All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
 trained annotators.
 
-The BTB-UD contains in its second release 11 138 sentences which exclude
+The BTB-UD contains in its third release 11 138 sentences which exclude
 ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
+
+In the third release we did not add new sentences. We have improved the annotation through checking and correcting the following relations:
+- appositions (the wrongly annotated vocatives and appositions were corrected as nmod)
+- xcomp (the ccomp relations were checked for control structures and re-annotated as xcomp)
+- nsubjpass and csubjpass in se-passives were annotated
+- cop relation direction was corrected
+- the relation between nouns and short possessive pronouns was re-annotated from case to det
+
+We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
+
 
 The rest of the sentences will be converted for the next release.
 
@@ -37,14 +47,6 @@ STATISTICS
 Number of Sentences: 11 138
 Number of Tokens: 156 323
 
-* CHANGELOG 1.1 -> 1.2
-
-- Addition of new data
-- Adding se-passives
-- Correcting dobj and iobj instead of expletive in the cases when there is no doubling.
-- Correcting the secondary predicates were re-considered from dobj to xcomp (Te ya naznachiha direktor.)
-- Adding auxpass relation
-
 ACKNOWLEDGEMENTS AND REFERENCES
 ===============================
 
@@ -60,6 +62,7 @@ Eberhard-Karls-Universität, Tübingen, Germany. Link:
 http://bultreebank.org/
 The conversion of BulTreeBank into Universla Dependency format was supported
 by the EU Project QTLeap. Link: http://qtleap.eu/
+
 
 References
 ----------
@@ -85,10 +88,11 @@ Implementation of the Bulgarian HPSG-based Treebank. In Erhard Hinrichs and
 Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
---- Machine readable metadata ---
+
 Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.1
-License: CC BY-SA 4.0
-Genre: news legal fiction popular-science interviews president-bulletin
-Contributors: Osenova, Petya; Simov, Kiril
+License: CC BY-NC-SA 3.0
+Genre: news legal fiction misc
+Contributors: Simov, Kiril; Osenova, Petya
+
