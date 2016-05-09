@@ -1,7 +1,7 @@
 TREEBANK DESCRIPTION
 ====================
 
-The original treebank is HPSG-based. It consists of 215 000 tokens 
+The original treebank is HPSG-based. It consists of 215 000 tokens
 (over 15 000 sentences).
 It consists of two parts: core set, which is a test suite for Bulgarian,
 consisting of 1500 sentences, extracted from Bulgarian grammars; remaining
@@ -89,10 +89,28 @@ Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 
+Changelog
+---------
+
+1.2 -> 1.3
+- appositions (the wrongly annotated vocatives and appositions were corrected as nmod)
+- xcomp (the ccomp relations were checked for control structures and re-annotated as xcomp)
+- nsubjpass and csubjpass in se-passives were annotated
+- cop relation direction was corrected
+- the relation between nouns and short possessive pronouns was re-annotated from case to det
+- changed the feature VerbForm=Fin to VerbForm=Part for participles
+
+1.1 -> 1.2
+- Addition of new data
+- Adding se-passives
+- Correcting dobj and iobj instead of expletive in the cases when there is no doubling.
+- Correcting the secondary predicates were re-considered from dobj to xcomp (Te ya naznachiha direktor.)
+- Adding auxpass relation
+
+
 Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Genre: news legal fiction misc
 Contributors: Simov, Kiril; Osenova, Petya
-
