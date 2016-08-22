@@ -71,8 +71,8 @@
     <feat name="Tense" value="Imp" upos="VERB">1021</feat><!-- нямаше, имаше, трябваше, щеше, можеше, имало, гледаше, имах, трябвало, щели -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">5646</feat><!-- бе, каза, бяха, съобщи, беше, заяви, стана, обяви, бил, предаде -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">13424</feat><!-- е, са, има, няма, може, бъде, трябва, съм, бъдат, могат -->
-    <feat name="VerbForm" value="Fin" upos="ADJ,AUX,VERB">21140</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1716</feat><!-- бил, били, била, било, миналата, следващата, въоръжените, останалите, свързани, миналия -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">18500</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">4356</feat><!-- бил, били, била, било, миналата, имало, следващата, въоръжените, останалите, свързани -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">20450</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
     <feat name="Voice" value="Pass" upos="ADJ,VERB">2024</feat><!-- въоръжените, свързани, определен, избран, направено, приета, определени, цитиран, изправени, обединена -->
   </feats>
@@ -80,34 +80,34 @@
   <deps unique="31">
     <dep name="acl">1585</dep>
     <dep name="advcl">1516</dep>
-    <dep name="advmod">5619</dep>
+    <dep name="advmod">5618</dep>
     <dep name="amod">11872</dep>
-    <dep name="appos">45</dep>
+    <dep name="appos">13</dep>
     <dep name="aux">5770</dep>
     <dep name="auxpass">421</dep>
-    <dep name="case">23055</dep>
+    <dep name="case">21608</dep>
     <dep name="cc">4869</dep>
-    <dep name="ccomp">3058</dep>
+    <dep name="ccomp">2799</dep>
     <dep name="conj">5575</dep>
     <dep name="cop">1946</dep>
-    <dep name="csubj">431</dep>
-    <dep name="csubjpass">57</dep>
-    <dep name="det">2023</dep>
-    <dep name="discourse">702</dep>
-    <dep name="dobj">7537</dep>
+    <dep name="csubj">414</dep>
+    <dep name="csubjpass">74</dep>
+    <dep name="det">3471</dep>
+    <dep name="discourse">703</dep>
+    <dep name="dobj">7530</dep>
     <dep name="expl">3505</dep>
     <dep name="iobj">3515</dep>
     <dep name="mark">1838</dep>
     <dep name="mwe">778</dep>
     <dep name="name">1267</dep>
     <dep name="neg">1424</dep>
-    <dep name="nmod">21398</dep>
-    <dep name="nsubj">10645</dep>
-    <dep name="nsubjpass">914</dep>
+    <dep name="nmod">21425</dep>
+    <dep name="nsubj">10404</dep>
+    <dep name="nsubjpass">1158</dep>
     <dep name="nummod">1723</dep>
     <dep name="punct">22075</dep>
     <dep name="root">11138</dep>
-    <dep name="vocative">6</dep>
-    <dep name="xcomp">12</dep>
+    <dep name="vocative">10</dep>
+    <dep name="xcomp">275</dep>
   </deps>
 </treebank>
