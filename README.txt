@@ -16,15 +16,6 @@ ellipses and some rare phenomena.
 The conversion was done semi-automatically, with the application of set of
 rules and constraints for result consistency.
 
-In the third release we did not add new sentences. We have improved the annotation through checking and correcting the following relations:
-- appositions (the wrongly annotated vocatives and appositions were corrected as nmod)
-- xcomp (the ccomp relations were checked for control structures and re-annotated as xcomp)
-- nsubjpass and csubjpass in se-passives were annotated
-- cop relation direction was corrected
-- the relation between nouns and short possessive pronouns was re-annotated from case to det
-
-We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
-
 
 The rest of the sentences will be converted for the next release.
 
@@ -45,7 +36,7 @@ divided by 10, the reminder is 1.
 STATISTICS
 ==========
 Number of Sentences: 11 138
-Number of Tokens: 156 323
+Number of Tokens: 156 319
 
 ACKNOWLEDGEMENTS AND REFERENCES
 ===============================
@@ -92,6 +83,11 @@ Special Issue, Kluwer Academic Publishers, pp. 495-522.
 Changelog
 ---------
 
+1.3 -> 1.4
+- corrections with the use of copula relation: it was extended and applied to sentences that consist of the auxiliary verb ‘to be’, a noun and a subordinate sentence. In this case noun is the root, auxiliary verb is the dependent, attached with a cop relation, and the subordinate sentence is the subject.
+- extended use of the xcomp relation– after certain verbs and in the cases when there are: direct object and  a subordinate sentence that is a complement, namely - xcomp;
+- extended use of the nsubjpass relation.
+
 1.2 -> 1.3
 - appositions (the wrongly annotated vocatives and appositions were corrected as nmod)
 - xcomp (the ccomp relations were checked for control structures and re-annotated as xcomp)
@@ -99,6 +95,7 @@ Changelog
 - cop relation direction was corrected
 - the relation between nouns and short possessive pronouns was re-annotated from case to det
 - changed the feature VerbForm=Fin to VerbForm=Part for participles
+- We also have changed the feature VerbForm=Fin to VerbForm=Part for participles.
 
 1.1 -> 1.2
 - Addition of new data
