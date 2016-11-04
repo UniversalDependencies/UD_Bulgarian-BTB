@@ -2731,7 +2731,7 @@
 # sent_id 1931
 # 582
 # random2
-1	Всъщност	всъщност	ADV	Dd	_	8	nsubj	_	_
+1	Всъщност	всъщност	ADV	Dd	_	8	advmod	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	Парламентарната	парламентарен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	група	група	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -3494,7 +3494,7 @@
 # random5
 1	Такова	такъв	DET	Pda--s-n	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	решение	решение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	обаче	обаче	ADV	Dd	_	4	nsubj	_	_
+3	обаче	обаче	ADV	Dd	_	4	advmod	_	_
 4	изискваше	изисквам	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 5	определен	определя-(се)	ADJ	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	amod	_	_
 6	план	план	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	dobj	_	_
@@ -4187,7 +4187,7 @@
 21	;	;	PUNCT	punct	_	4	punct	_	_
 22	или	или	CONJ	Cp	_	4	cc	_	_
 23	пък	пък	PART	Te	_	28	discourse	_	_
-24	просто	просто	ADV	Dd	_	28	nsubj	_	_
+24	просто	просто	ADV	Dd	_	28	advmod	_	_
 25	други	друг	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	28	nsubj	_	_
 26	ти	аз	PRON	Ppetds2	Case=Dat|Number=Sing|Person=2|PronType=Prs	28	iobj	_	_
 27	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	dobj	_	_
@@ -4339,7 +4339,7 @@
 7	бави	бавя-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 8	,	,	PUNCT	punct	_	1	punct	_	_
 9	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-10	навярно	навярно	ADV	Dd	_	12	nsubj	_	_
+10	навярно	навярно	ADV	Dd	_	12	advmod	_	_
 11	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	_
 12	тресеше	тресе-ме	VERB	Vnitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	1	conj	_	_
 13	от	от	ADP	R	_	14	case	_	_
@@ -4522,7 +4522,7 @@
 19	но	но	CONJ	Cc	_	14	cc	_	_
 20	и	и	CONJ	Cp	_	21	cc	_	_
 21	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	nsubj	_	_
-22	едва	едва	ADV	Dq	_	25	nsubj	_	_
+22	едва	едва	ADV	Dq	_	25	advmod	_	_
 23	ли	ли	PART	Ti	_	22	mwe	_	_
 24	ще	ще	PART	Tx	_	25	aux	_	_
 25	стане	стана	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
@@ -5922,7 +5922,7 @@
 # 319
 # kleinke
 1	Хората	хора	NOUN	Nc-ld	Definite=Def|Number=Ptan	4	nsubj	_	_
-2	обикновено	обикновено	ADV	Dd	_	4	nsubj	_	_
+2	обикновено	обикновено	ADV	Dd	_	4	advmod	_	_
 3	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	по-себедеструктивни	себедеструктивен	ADJ	A-pi	Definite=Ind|Degree=Cmp|Number=Plur	0	root	_	_
 5	,	,	PUNCT	punct	_	7	punct	_	_
@@ -9148,7 +9148,7 @@
 8	,	,	PUNCT	punct	_	9	punct	_	_
 9	но	но	CONJ	Cc	_	1	cc	_	_
 10	Дейвид	дейвид	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	nsubj	_	_
-11	просто	просто	ADV	Dd	_	16	nsubj	_	_
+11	просто	просто	ADV	Dd	_	16	advmod	_	_
 12	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
 13	най-талантливият	талантлив	ADJ	Amsf	Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	16	amod	_	_
 14	и	и	CONJ	Cp	_	13	cc	_	_
@@ -10537,7 +10537,7 @@
 # 321
 # Novinar-2001-01-03
 1	Тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	обаче	обаче	ADV	Dd	_	7	nsubj	_	_
+2	обаче	обаче	ADV	Dd	_	7	advmod	_	_
 3	вече	вече	ADV	Dt	_	7	advmod	_	_
 4	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	около	около	ADP	R	_	6	case	_	_
@@ -11044,9 +11044,9 @@
 1	На	на	ADP	R	_	2	case	_	_
 2	избори	избор	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	_
 3	2001	2001	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	2	nummod	_	_
-4	едва	едва	ADV	Dq	_	12	nsubj	_	_
+4	едва	едва	ADV	Dq	_	12	advmod	_	_
 5	ли	ли	PART	Ti	_	4	mwe	_	_
-6	обаче	обаче	ADV	Dd	_	12	nsubj	_	_
+6	обаче	обаче	ADV	Dd	_	12	advmod	_	_
 7	новите	нов	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	8	amod	_	_
 8	лица	лице	NOUN	Ncnpi	Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	_	_
 9	в	в	ADP	R	_	10	case	_	_
@@ -11064,7 +11064,7 @@
 # 227
 # Novinar-2001-01-08
 1	Те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-2	обаче	обаче	ADV	Dd	_	6	nsubj	_	_
+2	обаче	обаче	ADV	Dd	_	6	advmod	_	_
 3	не	не	INTJ	Tn	_	6	neg	_	_
 4	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	непреодолима	непреодолим	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
@@ -11563,7 +11563,7 @@
 # sent_id 6871
 # 661
 # Novinar-2001-01-08
-1	Въоръжени	въоръжа	ADJ	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	14	nsubj	_	_
+1	Въоръжени	въоръжа	ADJ	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	12	amod	_	_
 2	до	до	ADP	R	_	3	case	_	_
 3	зъби	зъб	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	_
 4	с	с	ADP	R	_	10	case	_	_
@@ -12069,7 +12069,7 @@
 # 282
 # Sega-2000-08-02
 1	Те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-2	просто	просто	ADV	Dd	_	5	nsubj	_	_
+2	просто	просто	ADV	Dd	_	5	advmod	_	_
 3	не	не	INTJ	Tn	_	5	neg	_	_
 4	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	проявили	проявя	VERB	Vpptcao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -12275,7 +12275,7 @@
 # 482
 # Sega-2000-08-02
 1	Кука	кука	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	обаче	обаче	ADV	Dd	_	7	nsubj	_	_
+2	обаче	обаче	ADV	Dd	_	7	advmod	_	_
 3	твърдо	твърдо	ADV	Dm	Degree=Pos	7	advmod	_	_
 4	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	в	в	ADP	R	_	7	case	_	_
@@ -12444,7 +12444,7 @@
 # Sega-2000-08-03
 1	Столичният	столичен	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	клуб	клуб	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
-3	обаче	обаче	ADV	Dd	_	6	nsubj	_	_
+3	обаче	обаче	ADV	Dd	_	6	advmod	_	_
 4	не	не	INTJ	Tn	_	6	neg	_	_
 5	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dobj	_	_
 6	пусна	пусна-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13125,7 +13125,7 @@
 1	Гардовете	гард	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	_
 2	на	на	ADP	R	_	3	case	_	_
 3	премиера	премиер	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
-4	обаче	обаче	ADV	Dd	_	6	nsubj	_	_
+4	обаче	обаче	ADV	Dd	_	6	advmod	_	_
 5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 6	справиха	справя-се	VERB	Vppif-o3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	перфектно	перфектно	ADV	Dm	Degree=Pos	6	advmod	_	_
@@ -14838,7 +14838,7 @@
 # Standard-2000-10-24
 1	Двамата	двама	NUM	Mc-pd	Definite=Def|Number=Plur|NumType=Card	2	nummod	_	_
 2	лидери	лидер	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
-3	обаче	обаче	ADV	Dd	_	6	nsubj	_	_
+3	обаче	обаче	ADV	Dd	_	6	advmod	_	_
 4	ще	ще	PART	Tx	_	6	aux	_	_
 5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 6	видят	видя-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15435,7 +15435,7 @@
 15	фирми	фирма	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	_
 16	,	,	PUNCT	punct	_	19	punct	_	_
 17	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	19	nsubj	_	_
-18	естествено	естествено	ADV	Dd	_	19	nsubj	_	_
+18	естествено	естествено	ADV	Dd	_	19	advmod	_	_
 19	искат	искам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	_
 20	всевъзможни	всевъзможен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_
 21	преференции	преференция	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	19	dobj	_	_
@@ -15852,7 +15852,7 @@
 4	,	,	PUNCT	punct	_	12	punct	_	_
 5	че	че	SCONJ	Cs	_	12	mark	_	_
 6	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	_
-7	все	все	ADV	Dq	_	12	nsubj	_	_
+7	все	все	ADV	Dq	_	12	advmod	_	_
 8	пак	пак	ADV	Dt	_	7	mwe	_	_
 9	не	не	INTJ	Tn	_	12	neg	_	_
 10	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_

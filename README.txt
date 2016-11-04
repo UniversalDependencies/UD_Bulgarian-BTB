@@ -111,4 +111,4 @@ Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Genre: news legal fiction misc
 Contributors: Simov, Kiril; Osenova, Petya
-Contact:
+Contact: kivs@bultreebank.org ; petya@bultreebank.org

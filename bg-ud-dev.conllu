@@ -1540,7 +1540,7 @@
 1	-	-	PUNCT	punct	_	5	punct	_	_
 2	Ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 3	си	съм	VERB	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	весела	весел	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	csubj	_	_
+4	весела	весел	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	ccomp	_	_
 5	изглежда	изглежда	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -9630,7 +9630,7 @@
 1	Влагата	влага	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	в	в	ADP	R	_	3	case	_	_
 3	Добруджа	добруджа	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_
-4	обаче	обаче	ADV	Dd	_	7	nsubj	_	_
+4	обаче	обаче	ADV	Dd	_	7	advmod	_	_
 5	била	съм	VERB	Vxitcat-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	7	cop	_	_
 6	крайно	крайно	ADV	Dm	Degree=Pos	7	advmod	_	_
 7	недостатъчна	недостатъчен	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -10295,7 +10295,7 @@
 4	и	и	CONJ	Cp	_	3	cc	_	_
 5	невзрачни	невзрачен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	3	conj	_	_
 6	депутати	депутат	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	_
-7	все	все	ADV	Dq	_	10	nsubj	_	_
+7	все	все	ADV	Dq	_	10	advmod	_	_
 8	пак	пак	ADV	Dt	_	7	mwe	_	_
 9	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	_
 10	прочуха	прочуя-се	VERB	Vppif-o3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11441,7 +11441,7 @@
 # Novinar-2001-01-08
 1	Този	този	DET	Pde-os-m	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	процес	процес	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	обаче	обаче	ADV	Dd	_	5	nsubj	_	_
+3	обаче	обаче	ADV	Dd	_	5	advmod	_	_
 4	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	минимален	минимален	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 6	,	,	PUNCT	punct	_	9	punct	_	_
@@ -11729,7 +11729,7 @@
 2	и	и	CONJ	Cp	_	1	cc	_	_
 3	Панкаро	панкаро	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	_
 4	(	(	PUNCT	punct	_	5	punct	_	_
-5	автогол	автогол	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	автогол	автогол	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	_
 6	)	)	PUNCT	punct	_	5	punct	_	_
 7	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_
 8	разписаха	разпиша-(се)	VERB	Vpptf-o3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13364,7 +13364,7 @@
 # 167
 # Sega-2001-01-02
 1	Яна	яна	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	обаче	обаче	ADV	Dd	_	4	nsubj	_	_
+2	обаче	обаче	ADV	Dd	_	4	advmod	_	_
 3	ги	аз	PRON	Ppetap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	dobj	_	_
 4	отпращала	отпращам	VERB	Vpitcao-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	-	-	PUNCT	punct	_	7	punct	_	_
@@ -16634,7 +16634,7 @@
 5	Съвета	съвет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	3	conj	_	_
 6	на	на	ADP	R	_	7	case	_	_
 7	министрите	министър	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	_
-8	естествено	естествено	ADV	Dd	_	9	nsubj	_	_
+8	естествено	естествено	ADV	Dd	_	9	advmod	_	_
 9	прикриват	прикривам-(се)	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	един	един	DET	Pfe-os-mi	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 11	принципен	принципен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
