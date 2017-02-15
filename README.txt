@@ -33,10 +33,6 @@ is divided by 10, the reminder is 0.
 Each first sentence means the following: when the ID of the sentence is
 divided by 10, the reminder is 1.
 
-STATISTICS
-==========
-Number of Sentences: 11 138
-Number of Tokens: 156 319
 
 ACKNOWLEDGEMENTS AND REFERENCES
 ===============================
@@ -82,6 +78,12 @@ Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 Changelog
 ---------
+1.4 -> 2.0
+- manual improvements of the annotation (e.g. more features converted from the original treebank)
+- automatic conversion to UDv2 guidelines using Udapi (http://udapi.github.io/) ud.Convert1to2
+- original texts added, extra PUNCT nodes after abbreviations deleted (ud.bg.RemoveDotAfterAbbr)
+- sent_id now encodes both the original document and sentence number, # newdoc added
+- test set omitted from the UDv2.0 official release because of CoNLL 2017 shared task.
 
 1.3 -> 1.4
 - corrections with the use of copula relation: it was extended and applied to sentences that consist of the auxiliary verb ‘to be’, a noun and a subordinate sentence. In this case noun is the root, auxiliary verb is the dependent, attached with a cop relation, and the subordinate sentence is the subject.
@@ -110,5 +112,5 @@ Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Genre: news legal fiction misc
-Contributors: Simov, Kiril; Osenova, Petya
+Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin
 Contact: kivs@bultreebank.org, petya@bultreebank.org
