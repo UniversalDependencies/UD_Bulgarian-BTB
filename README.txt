@@ -82,6 +82,7 @@ Changelog
 - manual improvements of the annotation (e.g. more features converted from the original treebank)
 - automatic conversion to UDv2 guidelines using Udapi (http://udapi.github.io/) ud.Convert1to2
 - original texts added, extra PUNCT nodes after abbreviations deleted (ud.bg.RemoveDotAfterAbbr)
+- goeswith nodes added to match better the original texts (ud.GoeswithFromText keep_lemma=1)
 - sent_id now encodes both the original document and sentence number, # newdoc added
 - test set omitted from the UDv2.0 official release because of CoNLL 2017 shared task.
 
