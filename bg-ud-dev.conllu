@@ -11799,7 +11799,7 @@
 # sent_id = Sega-2000-08-02-s320
 # text = - Защо е този скандал?
 1	-	-	PUNCT	punct	_	2	punct	_	_
-2	Защо	защо	PRON	Pic	_	0	root	_	_
+2	Защо	защо	PRON	Pic	PronType=Int	0	root	_	_
 3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	този	този	DET	Pde-os-m	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	скандал	скандал	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -18377,7 +18377,7 @@
 # sent_id = Sega-2000-08-02-s204
 # text = Ето защо се налагало да се проведе конферентен разговор с тях, за да се види каква е последната им позиция.
 1	Ето	ето	PART	Tv	_	4	mark	_	_
-2	защо	защо	PRON	Pic	_	1	fixed	_	_
+2	защо	защо	PRON	Pic	PronType=Int	1	fixed	_	_
 3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_
 4	налагало	налагам-(се)	VERB	Vpitcao-sni	Aspect=Imp|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	да	да	AUX	Tx	_	7	aux	_	_
