@@ -78,6 +78,10 @@ Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 Changelog
 ---------
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Bulgarian to UD_Bulgarian-BTB.
+
 1.4 -> 2.0
 - manual improvements of the annotation (e.g. more features converted from the original treebank)
 - automatic conversion to UDv2 guidelines using Udapi (http://udapi.github.io/) ud.Convert1to2
