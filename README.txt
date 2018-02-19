@@ -108,10 +108,20 @@ Changelog
 - Adding auxpass relation
 
 
-Documentation status: partial
-Data source: semi-automatic
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
+Includes text: yes
 Genre: news legal fiction misc
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin
+Contributing: elsewhere
 Contact: kivs@bultreebank.org, petya@bultreebank.org
+===============================================================================
+</pre>
