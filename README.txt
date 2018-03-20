@@ -1,5 +1,5 @@
-SUMMARY
-==========
+# Summary
+
 UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank, 
 created at the Institute of Information and Communication Technologies,
 Bulgarian Academy of Sciences.
@@ -9,8 +9,7 @@ All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
 trained annotators.
 
-INTRODUCTION
-============
+# Introduction
 
 The UD_Bulgarian-BTB consists of 156 149 tokens (11 138 sentences).
 This subset of BulTreeBank excludes ellipses and some rare phenomena.
@@ -20,8 +19,8 @@ with the application of set of rules and constraints for result consistency.
 The rest of the sentences will be converted for the next releases.
 The original version is freely available for research upon request.
 
-ACKNOWLEDGEMENTS
-================
+# Acknowledgements
+
 The original treebank was developed in a project (2001-2004), funded by the
 Volkswagen Stiftung, Federal Republic of Germany under the Programme
 "Cooperation with Natural and Engineering Scientists in Central and Eastern
@@ -36,8 +35,7 @@ We would like to thank all our colleagues that contributed to the annotation of 
 Elisaveta Balabanova, Dimitar Dojkov, Maggie Ivanchukova, Sia Kolkovska, Milena Slavcheva, Petya Osenova.
 We also would like to thank our annotator and validator to the treebank UD version: Stanislava Kancheva.
 
-References
-==========
+# References
 
 Petya Osenova and Kiril Simov. BTB-TR05: BulTreeBank Stylebook. BulTreeBank
 Project Technical Report № 05. 2004. Link:
@@ -61,9 +59,8 @@ Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 
+# Domains and data split
 
-DOMAINS AND DATA SPLIT
-======================
 The domains in the treebanks are as follows: Bulgarian newspapers (81 %), 
 fiction (16 %) and administrative documents (3 %).
 The files of the original treebank were concatenated in one file. Then:
