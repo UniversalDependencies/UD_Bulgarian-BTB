@@ -11,7 +11,7 @@ trained annotators.
 
 # Introduction
 
-The UD_Bulgarian-BTB consists of 156 149 tokens (11 138 sentences).
+The UD_Bulgarian-BTB consists of 156 149 tokens (11,138 sentences).
 This subset of BulTreeBank excludes ellipses and some rare phenomena.
 The conversion was done semi-automatically by Kiril Simov,
 with the application of set of rules and constraints for result consistency.
