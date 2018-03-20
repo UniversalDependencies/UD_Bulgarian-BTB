@@ -3,7 +3,7 @@
 UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank, 
 created at the Institute of Information and Communication Technologies,
 Bulgarian Academy of Sciences.
-The original consists of 215 000 tokens (over 15 000 sentences).
+The original consists of 215,000 tokens (over 15,000 sentences).
 
 All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
