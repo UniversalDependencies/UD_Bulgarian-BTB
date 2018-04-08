@@ -1,44 +1,25 @@
-TREEBANK DESCRIPTION
-====================
+# Summary
 
-The original treebank is HPSG-based. It consists of 215 000 tokens
-(over 15 000 sentences).
-It consists of two parts: core set, which is a test suite for Bulgarian,
-consisting of 1500 sentences, extracted from Bulgarian grammars; remaining
-set, which comprizes isolated random sentences and running texts from
-Bulgarian newspapers, literature and administrative documents.
+UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank, 
+created at the Institute of Information and Communication Technologies,
+Bulgarian Academy of Sciences.
+The original consists of 215,000 tokens (over 15,000 sentences).
+
 All the texts were processed automatically at tokenization, morphological
 and chunk level. Then, the full syntactic analysis were perfomed manually by
 trained annotators.
 
-The BTB-UD contains in its third release 11 138 sentences which exclude
-ellipses and some rare phenomena.
-The conversion was done semi-automatically, with the application of set of
-rules and constraints for result consistency.
+# Introduction
 
+The UD_Bulgarian-BTB consists of 156 149 tokens (11,138 sentences).
+This subset of BulTreeBank excludes ellipses and some rare phenomena.
+The conversion was done semi-automatically by Kiril Simov,
+with the application of set of rules and constraints for result consistency.
 
-The rest of the sentences will be converted for the next release.
+The rest of the sentences will be converted for the next releases.
+The original version is freely available for research upon request.
 
-SPLIT DATA DESCRIPTION
-======================
-
-The files of the original treebank were concatenated in one file. Then:
-
-- each tenth sentence was selected for the development set
-- each first sentence was selected for the test part
-- the rest sentences are in the training set
-
-Remark: Each tenth sentence means the following: when the ID of the sentence
-is divided by 10, the reminder is 0.
-Each first sentence means the following: when the ID of the sentence is
-divided by 10, the reminder is 1.
-
-
-ACKNOWLEDGEMENTS AND REFERENCES
-===============================
-
-Acknowledgements
----------------
+# Acknowledgements
 
 The original treebank was developed in a project (2001-2004), funded by the
 Volkswagen Stiftung, Federal Republic of Germany under the Programme
@@ -47,12 +28,14 @@ Europe". The project was carried out mainly at IICT-BAS in tight cooperation
 with researchers at the Seminar für Sprachwissenschaft (SfS),
 Eberhard-Karls-Universität, Tübingen, Germany. Link:
 http://bultreebank.org/
-The conversion of BulTreeBank into Universla Dependency format was supported
+The conversion of BulTreeBank into Universal Dependency format was supported
 by the EU Project QTLeap. Link: http://qtleap.eu/
 
+We would like to thank all our colleagues that contributed to the annotation of the original treebank:
+Elisaveta Balabanova, Dimitar Dojkov, Maggie Ivanchukova, Sia Kolkovska, Milena Slavcheva, Petya Osenova.
+We also would like to thank our annotator and validator to the treebank UD version: Stanislava Kancheva.
 
-References
-----------
+# References
 
 Petya Osenova and Kiril Simov. BTB-TR05: BulTreeBank Stylebook. BulTreeBank
 Project Technical Report № 05. 2004. Link:
@@ -76,8 +59,28 @@ Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 
+# Domains and data split
+
+The domains in the treebanks are as follows: Bulgarian newspapers (81 %), 
+fiction (16 %) and administrative documents (3 %).
+The files of the original treebank were concatenated in one file. Then:
+
+- each tenth sentence was selected for the development set
+- each first sentence was selected for the test part
+- the rest sentences are in the training set
+
+Remark: Each tenth sentence means the following: when the ID of the sentence
+is divided by 10, the reminder is 0.
+Each first sentence means the following: when the ID of the sentence is
+divided by 10, the reminder is 1.
+
+
 Changelog
 ---------
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Bulgarian to UD_Bulgarian-BTB.
+
 1.4 -> 2.0
 - manual improvements of the annotation (e.g. more features converted from the original treebank)
 - automatic conversion to UDv2 guidelines using Udapi (http://udapi.github.io/) ud.Convert1to2
@@ -108,10 +111,20 @@ Changelog
 - Adding auxpass relation
 
 
-Documentation status: partial
-Data source: semi-automatic
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
+Includes text: yes
 Genre: news legal fiction misc
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin
+Contributing: elsewhere
 Contact: kivs@bultreebank.org, petya@bultreebank.org
+===============================================================================
+</pre>
