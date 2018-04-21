@@ -1,6 +1,6 @@
 # Summary
 
-UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank, 
+UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank,
 created at the Institute of Information and Communication Technologies,
 Bulgarian Academy of Sciences.
 The original consists of 215,000 tokens (over 15,000 sentences).
@@ -61,7 +61,7 @@ Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
 # Domains and data split
 
-The domains in the treebanks are as follows: Bulgarian newspapers (81 %), 
+The domains in the treebanks are as follows: Bulgarian newspapers (81 %),
 fiction (16 %) and administrative documents (3 %).
 The files of the original treebank were concatenated in one file. Then:
 
@@ -117,7 +117,7 @@ Changelog
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: news legal fiction misc
+Genre: news legal fiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
