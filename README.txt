@@ -78,6 +78,9 @@ divided by 10, the reminder is 1.
 Changelog
 ---------
 
+2.0 -> 2.3
+- automatic addition of enhanced dependencies
+
 * 2018-04-15 v2.2
   * Repository renamed from UD_Bulgarian to UD_Bulgarian-BTB.
 
