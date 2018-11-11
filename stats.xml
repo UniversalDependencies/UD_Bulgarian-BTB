@@ -78,8 +78,9 @@
     <feat name="Voice" value="Pass" upos="ADJ,VERB">2050</feat><!-- въоръжените, свързани, определен, избран, направено, приета, определени, цитиран, изправени, обединена -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
-    <dep name="acl">1598</dep>
+  <deps unique="36">
+    <dep name="acl">526</dep>
+    <dep name="acl:relcl">1072</dep>
     <dep name="advcl">1613</dep>
     <dep name="advmod">7162</dep>
     <dep name="amod">11833</dep>

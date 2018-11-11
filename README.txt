@@ -1,6 +1,6 @@
 # Summary
 
-UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank, 
+UD_Bulgarian-BTB is based on the HPSG-based BulTreeBank,
 created at the Institute of Information and Communication Technologies,
 Bulgarian Academy of Sciences.
 The original consists of 215,000 tokens (over 15,000 sentences).
@@ -58,10 +58,52 @@ Implementation of the Bulgarian HPSG-based Treebank. In Erhard Hinrichs and
 Kiril Simov, editors, Journal of Research on Language and Computation,
 Special Issue, Kluwer Academic Publishers, pp. 495-522.
 
+## BibTeX
+
+  @techreport{OsenovaSimov2004,
+    author = {Petya Osenova and Kiril Simov},
+    title = {BTB-TR05: BulTreeBank Stylebook ą 05},
+    year = {2004},
+    url = {http://www.bultreebank.org/TechRep/BTB-TR05.pdf}
+   }
+
+  @InProceedings{SimovOsenova2003,
+    author = {Kiril Simov and Petya Osenova},
+    title = {Practical Annotation Scheme for an HPSG Treebank of Bulgarian},
+    booktitle = {Proceedings of the 4th International Workshop on Linguistically Interpreteted Corpora (LINC-2003)},
+    year = {2003},
+    pages     = {17--24},
+   }
+
+  @incollection{SimovOsPo2002,
+   author = {Kiril Simov and Gergana Popova and Petya Osenova},
+   title = {HPSG-based syntactic treebank of Bulgarian (BulTreeBank)},
+   booktitle = {A Rainbow of Corpora: Corpus Linguistics and the Languages of the World},
+   editor = {Andrew Wilson, Paul Rayson and Tony McEnery},
+   publisher = {Lincom-Europa},
+   pages = {135--142},
+   year = {2002},
+  }
+
+  @techreport{SimovOseSlav2004,
+    author = {Kiril Simov and Petya Osenova and Milena Slavcheva},
+    title = {BTB-TR03: BulTreeBank Morphosyntactic Tagset. BulTreeBank Project Technical Report ą 03},
+    year = {2004},
+    url = {http://www.bultreebank.org/TechRep/BTB-TR03.pdf}
+   }
+
+  @article{SimOsSimKo2005,
+   author = {Kiril Simov and Petya Osenova and Alexander Simov and Milen Kouylekov},
+   title = {Design and Implementation of the Bulgarian HPSG-based Treebank},
+   journal = {Journal of Research on Language and Computation. Special Issue},
+   year = {2005},
+   pages = {495--522},
+   publisher = {Kluwer Academic Publisher},
+  }
 
 # Domains and data split
 
-The domains in the treebanks are as follows: Bulgarian newspapers (81 %), 
+The domains in the treebanks are as follows: Bulgarian newspapers (81 %),
 fiction (16 %) and administrative documents (3 %).
 The files of the original treebank were concatenated in one file. Then:
 
@@ -77,6 +119,10 @@ divided by 10, the reminder is 1.
 
 Changelog
 ---------
+
+2.2 -> 2.3
+
+Automatic addition of enhanced dependencies.
 
 * 2018-04-15 v2.2
   * Repository renamed from UD_Bulgarian to UD_Bulgarian-BTB.
@@ -117,7 +163,7 @@ Changelog
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: news legal fiction misc
+Genre: news legal fiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
