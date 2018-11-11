@@ -1,11 +1,11 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit c4abac8b736f5de9488efc4c67d5d8d3f295e312
+commit fffa43dd627a7bc808786b2218ecc1e0150183a3
+Merge: 9c3502e af771a6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:14:27 2018 +0200
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -21,7 +21,7 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi: found 249 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 156149 words.
-Genres: found 3 out of 14 known.
+Genres: found 3 out of 17 known.
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
 *** PASSED ***
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.214285714285714) = 0.0164835164835165
+(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.731179735764206) = 0.187481983529284
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.984053692306707) = 0.302785751478987
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.792251231109414) * (availability=1) * (validity=1) = 0.792251231109414
+(TOTAL score=0.789342375259381) * (availability=1) * (validity=1) = 0.789342375259381
 STARS = 4
-UD_Bulgarian-BTB	0.792251231109414	4
+UD_Bulgarian-BTB	0.789342375259381	4
