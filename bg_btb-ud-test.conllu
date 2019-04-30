@@ -4502,7 +4502,7 @@
 4	пред	пред	ADP	R	_	5	case	5:case	_
 5	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	2:obl:пред	_
 6	и	и	CCONJ	Cp	_	10	cc	10:cc	_
-7	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|10:nsubj|13:nsubj	_
+7	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|13:nsubj	_
 8	безропотно	безропотно	ADV	Dm	Degree=Pos	10	advmod	10:advmod	_
 9	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	10:expl	_
 10	остави	оставя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
