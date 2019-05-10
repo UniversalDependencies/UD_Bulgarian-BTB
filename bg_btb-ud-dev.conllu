@@ -5851,7 +5851,7 @@
 # sent_id = euro-s35
 # text = Особено когато става дума за субсидии, структурни фондове и търговски квоти.
 1	Особено	особено	ADV	Dd	Degree=Pos	3	advmod	3:advmod	_
-2	когато	когато	ADV	Prt	PronType=Rel	3	advmod	0:ref	_
+2	когато	когато	ADV	Prt	PronType=Rel	3	advmod	0:root	_
 3	става	става	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	дума	дума	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obj	3:obj	_
 5	за	за	ADP	R	_	6	case	6:case	_
@@ -5988,7 +5988,7 @@
 12	развитие	развитие	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	10:nmod:на	SpaceAfter=No
 13	,	,	PUNCT	punct	_	15	punct	15:punct	_
 14	на	на	ADP	R	_	15	case	15:case	_
-15	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	acl:relcl	10:ref|10:acl:relcl:на	_
+15	което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	acl:relcl	10:acl:relcl:на|10:ref	_
 16	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 17	били	съм	AUX	Vxitcat-p-i	Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act	15	cop	15:cop	_
 18	сегашните	сегашен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	19	amod	19:amod	_
@@ -10486,7 +10486,7 @@
 # sent_id = Novinar-2000-12-08-s93
 # text = Нека който смята, че тук е лесно, да дойде, да изкара един семестър, да си вземе всички изпити и после да говори.
 1	Нека	нека	PART	Tv	_	0	root	0:root	_
-2	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	11:ref|11:nsubj|14:nsubj|20:nsubj|26:nsubj	_
+2	който	който	PRON	Pre-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	11:nsubj|11:ref|14:nsubj|20:nsubj|26:nsubj	_
 3	смята	смятам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	csubj	11:csubj	SpaceAfter=No
 4	,	,	PUNCT	punct	_	8	punct	8:punct	_
 5	че	че	SCONJ	Cs	_	8	mark	8:mark	_
@@ -11629,7 +11629,7 @@
 
 # sent_id = Novinar-2000-12-21-s37
 # text = Защото лекото увеличение на цените е от полза за производителите.
-1	Защото	защото	ADV	Prc	_	8	advmod	0:ref	_
+1	Защото	защото	ADV	Prc	_	8	advmod	0:root	_
 2	лекото	лек	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
 3	увеличение	увеличение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	_
 4	на	на	ADP	R	_	5	case	5:case	_
@@ -16394,7 +16394,7 @@
 # text = Първо, защото за първи път след 1989 г. управлението не приключва с провал.
 1	Първо	първо	ADV	Dt	Degree=Pos	12	advmod	12:advmod	SpaceAfter=No
 2	,	,	PUNCT	punct	_	12	punct	12:punct	_
-3	защото	защото	ADV	Prc	_	12	advmod	0:ref	_
+3	защото	защото	ADV	Prc	_	12	advmod	0:root	_
 4	за	за	ADP	R	_	6	case	6:case	_
 5	първи	първи	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	6	amod	6:amod	_
 6	път	път	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	12	obl	12:obl:за	_
@@ -18348,7 +18348,7 @@
 
 # sent_id = Standard-2000-10-31-s436
 # text = Защото те създадоха една наистина уродлива насоченост на цялата ни икономика.
-1	Защото	защото	ADV	Prc	_	3	advmod	0:ref	_
+1	Защото	защото	ADV	Prc	_	3	advmod	0:root	_
 2	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 3	създадоха	създам	VERB	Vpptf-o3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	една	един	DET	Pfe-os-fi	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	7:det	_

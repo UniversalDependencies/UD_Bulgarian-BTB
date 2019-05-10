@@ -1872,7 +1872,7 @@
 
 # sent_id = random1-s194
 # text = Което е показателно за таланта им.
-1	Което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	nsubj	0:ref	_
+1	Което	който	PRON	Pre-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	nsubj	0:root	_
 2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	показателно	показателен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	0:root	_
 4	за	за	ADP	R	_	5	case	5:case	_
@@ -2298,7 +2298,7 @@
 9	край	край	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	6	obl	6:obl:от	_
 10	на	на	ADP	R	_	11	case	11:case	_
 11	ливадата	ливада	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	9	nmod	9:nmod:на	_
-12	дето	където	ADV	Prl	PronType=Rel	9	acl:relcl	9:ref|9:acl:relcl	_
+12	дето	където	ADV	Prl	PronType=Rel	9	acl:relcl	9:acl:relcl|9:ref	_
 13	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 14	реката	река	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	12	nsubj	9:nsubj	SpaceAfter=No
 15	,	,	PUNCT	punct	_	17	punct	17:punct	_
@@ -4211,7 +4211,7 @@
 
 # sent_id = random5-s305
 # text = Защото протестите са само началото.
-1	Защото	защото	ADV	Prc	_	5	advmod	0:ref	_
+1	Защото	защото	ADV	Prc	_	5	advmod	0:root	_
 2	протестите	протест	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	_
 3	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 4	само	само	ADV	Dd	Degree=Pos	5	advmod	5:advmod	_
@@ -4502,7 +4502,7 @@
 4	пред	пред	ADP	R	_	5	case	5:case	_
 5	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	2:obl:пред	_
 6	и	и	CCONJ	Cp	_	10	cc	10:cc	_
-7	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|10:nsubj|13:nsubj	_
+7	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|13:nsubj	_
 8	безропотно	безропотно	ADV	Dm	Degree=Pos	10	advmod	10:advmod	_
 9	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	10:expl	_
 10	остави	оставя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
@@ -12187,7 +12187,7 @@
 
 # sent_id = Novinar-2001-01-03-s361
 # text = Защото така стоките ни стават неконкурентни откъм цена.
-1	Защото	защото	ADV	Prc	_	5	advmod	0:ref	_
+1	Защото	защото	ADV	Prc	_	5	advmod	0:root	_
 2	така	така	ADV	Pdm	PronType=Dem	5	advmod	5:advmod	_
 3	стоките	стока	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	5	nsubj	5:nsubj	_
 4	ни	наш	PRON	Pszt--1	Person=1|Poss=Yes|PronType=Prs	3	det	3:det	_
@@ -17670,7 +17670,7 @@
 
 # sent_id = Standard-2000-10-31-s16
 # text = Както направи с Бисеров и Цонев.
-1	Както	както	ADV	Prm	PronType=Rel	2	advmod	0:ref	_
+1	Както	както	ADV	Prm	PronType=Rel	2	advmod	0:root	_
 2	направи	направя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	с	с	ADP	R	_	4	case	4:case	_
 4	Бисеров	бисеров	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	2	iobj	2:iobj	_
@@ -18723,7 +18723,7 @@
 12	такива	такъв	DET	Pda--p	Number=Plur|PronType=Dem	13	det	13:det	_
 13	проекти	проект	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	9:nmod:към	SpaceAfter=No
 14	,	,	PUNCT	punct	_	15	punct	15:punct	_
-15	какъвто	какъвто	DET	Pra--s-m	Gender=Masc|Number=Sing|PronType=Rel	13	acl:relcl	13:ref|13:acl:relcl	_
+15	какъвто	какъвто	DET	Pra--s-m	Gender=Masc|Number=Sing|PronType=Rel	13	acl:relcl	13:acl:relcl|13:ref	_
 16	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 17	и	и	CCONJ	Cp	_	18	cc	18:cc	_
 18	Пактът	пакт	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	13:nsubj	_
