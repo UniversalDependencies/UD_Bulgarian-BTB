@@ -1553,7 +1553,7 @@
 
 # sent_id = penchev-s576
 # text = Да, КУЧЕТО на съседите е изчезнало.
-1	Да	да	INTJ	Ta	_	7	discourse	7:discourse	SpaceAfter=No
+1	Да	да	PART	Ta	_	7	discourse	7:discourse	SpaceAfter=No
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
 3	КУЧЕТО	куче	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
 4	на	на	ADP	R	_	5	case	5:case	_
@@ -2292,7 +2292,7 @@
 # sent_id = random1-s480
 # text = - Да, очаквам Европейската комисия да даде такова заключение.
 1	-	-	PUNCT	punct	_	4	punct	4:punct	_
-2	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	очаквам	очаквам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	Европейската	европейски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
@@ -7557,7 +7557,7 @@
 # sent_id = Novinar-2000-11-16-s129
 # text = - Да, пестим.
 1	-	-	PUNCT	punct	_	4	punct	4:punct	_
-2	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	пестим	пестя-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
@@ -8887,7 +8887,7 @@
 # sent_id = Novinar-2000-11-26-s247
 # text = - Да, ще го разпусна.
 1	-	-	PUNCT	punct	_	6	punct	6:punct	_
-2	Да	да	INTJ	Ta	_	6	discourse	6:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	6	discourse	6:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	ще	ще	AUX	Tx	_	6	aux	6:aux	_
 5	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	_
@@ -8898,7 +8898,7 @@
 # text = - Категорично да.
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Категорично	категорично	ADV	Dd	Degree=Pos	3	advmod	3:advmod	_
-3	да	да	INTJ	Ta	_	0	root	0:root	SpaceAfter=No
+3	да	да	PART	Ta	_	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = Novinar-2000-11-26-s276
@@ -18317,7 +18317,7 @@
 1	-	-	PUNCT	punct	_	2	punct	2:punct	_
 2	Определено	определено	ADV	Dm	Degree=Pos	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	4:punct	_
-4	да	да	INTJ	Ta	_	2	discourse	2:discourse	SpaceAfter=No
+4	да	да	PART	Ta	_	2	discourse	2:discourse	SpaceAfter=No
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = Standard-2000-10-31-s417

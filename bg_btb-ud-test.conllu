@@ -1543,7 +1543,7 @@
 
 # sent_id = penchev-s577
 # text = Да, КУЧЕТО намерихме.
-1	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+1	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
 3	КУЧЕТО	куче	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	4	obj	4:obj	_
 4	намерихме	намеря-(се)	VERB	Vpptf-o1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -8179,7 +8179,7 @@
 # sent_id = Novinar-2000-11-23-s299
 # text = - Да, за да стане съпричастен с мъките на жената.
 1	-	-	PUNCT	punct	_	6	punct	6:punct	_
-2	Да	да	INTJ	Ta	_	6	discourse	6:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	6	discourse	6:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	6	punct	6:punct	_
 4	за	за	ADP	R	_	6	mark	6:mark	_
 5	да	да	AUX	Tx	_	4	fixed	4:fixed	_
@@ -13299,7 +13299,7 @@
 # sent_id = Novinar-2001-01-08-s601
 # text = - Да, кралят.
 1	-	-	PUNCT	punct	_	4	punct	4:punct	_
-2	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	кралят	крал	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
@@ -13499,7 +13499,7 @@
 # sent_id = Novinar-2001-01-08-s782
 # text = - Да, това е голям успех за нас.
 1	-	-	PUNCT	punct	_	7	punct	7:punct	_
-2	Да	да	INTJ	Ta	_	7	discourse	7:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	7	discourse	7:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
