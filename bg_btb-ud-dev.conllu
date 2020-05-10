@@ -432,8 +432,8 @@
 2	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	SpaceAfter=No
 3	,	,	PUNCT	punct	_	9	punct	9:punct	_
 4	да	да	AUX	Tx	_	9	discourse	9:discourse	_
-5	не	не	INTJ	Tn	Polarity=Neg	4	fixed	4:fixed	_
-6	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	fixed	4:fixed	_
+5	не	не	PART	Tn	Polarity=Neg	4	fixed	4:fixed	_
+6	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	fixed	4:fixed	_
 7	да	да	AUX	Tx	_	9	aux	9:aux	_
 8	ме	аз	PRON	Ppetas1	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	9:obj	_
 9	удари	ударя-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	SpaceAfter=No
@@ -442,10 +442,10 @@
 # sent_id = akadgram-s508
 # text = Щастлив съм, че си моя.
 1	Щастлив	щастлив	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	obj	2:obj	_
-2	съм	съм	VERB	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	5	punct	5:punct	_
 4	че	че	SCONJ	Cs	_	5	mark	5:mark	_
-5	си	съм	VERB	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:че	_
+5	си	съм	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:че	_
 6	моя	мой	DET	Psol-s1fi	Definite=Ind|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	obj	5:obj	SpaceAfter=No
 7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
@@ -553,7 +553,7 @@
 # sent_id = akadgram-s615
 # text = Най-лошото е, че тя е поразена просто до мозъка на костите.
 1	Най-лошото	лош	ADJ	Ansd	Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	7	punct	7:punct	_
 4	че	че	SCONJ	Cs	_	7	mark	7:mark	_
 5	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	7:nsubj:pass	_
@@ -570,7 +570,7 @@
 # text = Първото впечатление е, че земята се разтресла.
 1	Първото	пръв	ADJ	Monsd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	2	amod	2:amod	_
 2	впечатление	впечатление	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
-3	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	punct	_	8	punct	8:punct	_
 5	че	че	SCONJ	Cs	_	8	mark	8:mark	_
 6	земята	земя	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
@@ -813,7 +813,7 @@
 13	дете	дете	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	14	nsubj	14:nsubj|16:nsubj	_
 14	може	мога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	7:acl:че	_
 15	да	да	AUX	Tx	_	16	aux	16:aux	_
-16	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	14:ccomp	_
+16	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	14:ccomp	_
 17	на	на	ADP	R	_	19	case	19:case	_
 18	една	един	DET	Pfe-os-fi	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	det	19:det	_
 19	циганка	циганка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	16	iobj	16:iobj	SpaceAfter=No
@@ -835,7 +835,7 @@
 11	въобразяваме	въобразявам-си	VERB	Vpiif-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 12	,	,	PUNCT	punct	_	14	punct	14:punct	_
 13	че	че	SCONJ	Cs	_	14	mark	14:mark	_
-14	сме	съм	VERB	Vxitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	_
+14	сме	съм	AUX	Vxitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	_
 15	над	над	ADP	R	_	16	case	16:case	_
 16	нея	аз	PRON	Ppelas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	14:iobj	_
 17	и	и	CCONJ	Cp	_	18	cc	18:cc	_
@@ -1043,7 +1043,7 @@
 5	,	,	PUNCT	punct	_	8	punct	8:punct	_
 6	защото	защото	ADV	Prc	_	8	advmod	2:ref	_
 7	не	не	PART	Tn	Polarity=Neg	8	advmod	8:advmod	_
-8	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+8	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
 9	негови	мой	DET	Psol-p3-im	Definite=Ind|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	obj	8:obj	SpaceAfter=No
 10	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
@@ -1077,13 +1077,13 @@
 # sent_id = penchev-s8
 # text = Кой е?
 1	Кой	кой	PRON	Pie-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	?	?	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = penchev-s19
 # text = Не е както ти мислиш.
 1	Не	не	PART	Tn	Polarity=Neg	2	advmod	2:advmod	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root|5:advmod	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root|5:advmod	_
 3	както	както	ADV	Prm	PronType=Rel	5	advmod	2:ref	_
 4	ти	аз	PRON	Ppe-os2	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
 5	мислиш	мисля	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	SpaceAfter=No
@@ -1324,7 +1324,7 @@
 3	студентка	студентка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	iobj	4:iobj	_
 4	мислиш	мисля	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	6:csubj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	4:punct	_
-6	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	важно	важно	ADV	Dm	Degree=Pos	6	obj	6:obj	SpaceAfter=No
 8	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
@@ -1553,7 +1553,7 @@
 
 # sent_id = penchev-s576
 # text = Да, КУЧЕТО на съседите е изчезнало.
-1	Да	да	INTJ	Ta	_	7	discourse	7:discourse	SpaceAfter=No
+1	Да	да	PART	Ta	_	7	discourse	7:discourse	SpaceAfter=No
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
 3	КУЧЕТО	куче	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
 4	на	на	ADP	R	_	5	case	5:case	_
@@ -1602,7 +1602,7 @@
 4	че	че	SCONJ	Cs	_	7	mark	7:mark	_
 5	лятото	лято	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
 6	ще	ще	AUX	Tx	_	7	aux	7:aux	_
-7	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+7	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
 8	горещо	горещ	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	obj	7:obj	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
@@ -1897,7 +1897,7 @@
 # text = В онова не толкова далечно време всичко свършва дотук.
 1	В	в	ADP	R	_	6	case	6:case	_
 2	онова	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	6:det	_
-3	не	не	INTJ	Tn	Polarity=Neg	4	advmod	4:advmod	_
+3	не	не	PART	Tn	Polarity=Neg	4	advmod	4:advmod	_
 4	толкова	толкова	ADV	Pdq	NumType=Card|PronType=Dem	5	advmod	5:advmod	_
 5	далечно	далечен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	_
 6	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:в	_
@@ -1991,7 +1991,7 @@
 # sent_id = random1-s244
 # text = Какво е вашето отношение?
 1	Какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	2	obj	2:obj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	вашето	ваш	DET	Pszl-s2nd	Definite=Def|Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	4:det	_
 4	отношение	отношение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 5	?	?	PUNCT	punct	_	2	punct	2:punct	_
@@ -2207,7 +2207,7 @@
 # text = - Да бъдат здрави и все така уверени в собствените си сили, настойчиви в гонене и постигане на целите си.
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Да	да	AUX	Tx	_	3	aux	3:aux	_
-3	бъдат	бъда	VERB	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	бъдат	бъда	AUX	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	здрави	здрав	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	3	obj	3:obj	_
 5	и	и	CCONJ	Cp	_	8	cc	8:cc	_
 6	все	все	ADV	Dq	Degree=Pos	7	advmod	7:advmod	_
@@ -2292,7 +2292,7 @@
 # sent_id = random1-s480
 # text = - Да, очаквам Европейската комисия да даде такова заключение.
 1	-	-	PUNCT	punct	_	4	punct	4:punct	_
-2	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	очаквам	очаквам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	Европейската	европейски	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
@@ -2433,7 +2433,7 @@
 # sent_id = random2-s41
 # text = Какви са впечатленията ви от тази среща?
 1	Какви	какъв	DET	Pia--p	Number=Plur|PronType=Int	2	obj	2:obj	_
-2	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	впечатленията	впечатление	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	2:nsubj	_
 4	ви	ваш	PRON	Psht--2	Person=2|Poss=Yes|PronType=Prs	3	det	3:det	_
 5	от	от	ADP	R	_	7	case	7:case	_
@@ -2535,7 +2535,7 @@
 9	жени	жена	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	12:nsubj	_
 10	с	с	ADP	R	_	11	case	11:case	_
 11	униформа	униформа	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	9:nmod:с	_
-12	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	1:csubj:pass	_
+12	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	1:csubj:pass	_
 13	красиви	красив	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	12	obj	12:obj	SpaceAfter=No
 14	,	,	PUNCT	punct	_	15	punct	15:punct	_
 15	елегантни	елегантен	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	13	conj	12:obj|13:conj	_
@@ -2589,7 +2589,7 @@
 10	защото	защото	ADV	Prc	_	13	advmod	4:ref	_
 11	те	аз	PRON	Ppe-op3	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
 12	ще	ще	AUX	Tx	_	13	aux	13:aux	_
-13	бъдат	бъда	VERB	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
+13	бъдат	бъда	AUX	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
 14	и	и	CCONJ	Cp	_	15	cc	15:cc	_
 15	обект	обект	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	13	obj	13:obj	_
 16	на	на	ADP	R	_	17	case	17:case	_
@@ -2729,7 +2729,7 @@
 8	,	,	PUNCT	punct	_	11	punct	11:punct	_
 9	след	след	ADP	R	_	10	case	10:case	_
 10	тях	аз	PRON	Ppelap3	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	11:obl:след	_
-11	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
+11	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
 12	семействата	семейство	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	11	nsubj	11:nsubj	_
 13	на	на	ADP	R	_	22	case	22:case	_
 14	загинали	загина	ADJ	Vppicao-p-i	Aspect=Perf|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	22	amod	22:amod	_
@@ -2952,7 +2952,7 @@
 # sent_id = random2-s482
 # text = Какви са намеренията относно бъдещето на инвалидните колички?
 1	Какви	какъв	DET	Pia--p	Number=Plur|PronType=Int	2	obj	2:obj	_
-2	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	намеренията	намерение	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	2:nsubj	_
 4	относно	относно	ADP	R	_	5	case	5:case	_
 5	бъдещето	бъдеще	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nmod	3:nmod:относно	_
@@ -3040,7 +3040,7 @@
 # sent_id = random2-s579
 # text = Каква е необходимостта от приемане на закон за общинското кредитиране?
 1	Каква	какъв	DET	Pia--s-f	Gender=Fem|Number=Sing|PronType=Int	2	obj	2:obj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	необходимостта	необходимост	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
 4	от	от	ADP	R	_	5	case	5:case	_
 5	приемане	приемане	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	3:nmod:от	_
@@ -3107,7 +3107,7 @@
 # sent_id = random2-s629
 # text = Каква е вашата роля в подготовката и осигуряването на нашите миротворци?
 1	Каква	какъв	DET	Pia--s-f	Gender=Fem|Number=Sing|PronType=Int	2	obj	2:obj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	вашата	ваш	DET	Pszl-s2fd	Definite=Def|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	4:det	_
 4	роля	роля	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
 5	в	в	ADP	R	_	6	case	6:case	_
@@ -3301,7 +3301,7 @@
 # text = - Какво е мнението ви за дебата за европейска сигурност и за ролята на трансатлантическата сигурност?
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	3	obj	3:obj	_
-3	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	мнението	мнение	NOUN	Ncnsd	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
 5	ви	ваш	PRON	Psht--2	Person=2|Poss=Yes|PronType=Prs	4	det	4:det	_
 6	за	за	ADP	R	_	7	case	7:case	_
@@ -3422,7 +3422,7 @@
 19	искала	искам	VERB	Vpitcao-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	csubj	7:csubj	_
 20	България	българия	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	22	nsubj	22:nsubj	_
 21	да	да	AUX	Tx	_	22	aux	22:aux	_
-22	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	19:ccomp	_
+22	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	19:ccomp	_
 23	сред	сред	ADP	R	_	24	case	24:case	_
 24	отличниците	отличник	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	22	iobj	22:iobj	_
 25	в	в	ADP	R	_	26	case	26:case	_
@@ -3613,7 +3613,7 @@
 
 # sent_id = random3-s140
 # text = Бе й нужно да остане насаме с него, за да уреди престоя си.
-1	Бе	съм	VERB	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Бе	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	й	аз	PRON	Ppetds3f	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	1:iobj	_
 3	нужно	нужно	ADV	Dm	Degree=Pos	1	obj	1:obj	_
 4	да	да	AUX	Tx	_	5	aux	5:aux	_
@@ -4078,7 +4078,7 @@
 # sent_id = random5-s160
 # text = Най-важното е, че Тридесет и осмото Народно събрание бе много отговорно и остави зад гърба си всички най-трудни решения.
 1	Най-важното	важен	ADJ	Ansd	Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	12	punct	12:punct	_
 4	че	че	SCONJ	Cs	_	12	mark	12:mark	_
 5	Тридесет	тридесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	9	nummod	9:nummod	_
@@ -4109,7 +4109,7 @@
 6	въпрос	въпрос	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obl	2:obl:към	SpaceAfter=No
 7	,	,	PUNCT	punct	_	2	punct	2:punct	_
 8	парадоксалното	парадоксален	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
-9	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 10	,	,	PUNCT	punct	_	21	punct	21:punct	_
 11	че	че	SCONJ	Cs	_	21	mark	21:mark	_
 12	когато	когато	ADV	Prt	PronType=Rel	14	advmod	21:ref	_
@@ -4240,7 +4240,7 @@
 5	да	да	AUX	Tx	_	7	aux	7:aux	_
 6	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	7:expl	_
 7	види	видя-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	csubj	4:csubj	_
-8	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 9	дали	дали	PART	Ti	_	11	discourse	11:discourse	_
 10	опозицията	опозиция	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	11:nsubj|14:nsubj	_
 11	може	мога	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
@@ -4568,7 +4568,7 @@
 4	случки	случка	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	2	conj	2:conj	_
 5	в	в	ADP	R	_	6	case	6:case	_
 6	романа	роман	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	2	nmod	2:nmod:в	_
-7	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	плод	плод	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	obj	7:obj	_
 9	на	на	ADP	R	_	10	case	10:case	_
 10	въображение	въображение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	8:nmod:на	_
@@ -4625,7 +4625,7 @@
 14	искат	искам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	xcomp	12:xcomp	_
 15	думата	дума	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	14	obj	14:obj	SpaceAfter=No
 16	,	,	PUNCT	punct	_	21	punct	21:punct	_
-17	не	не	INTJ	Tn	Polarity=Neg	21	advmod	21:advmod	_
+17	не	не	PART	Tn	Polarity=Neg	21	advmod	21:advmod	_
 18	само	само	ADV	Dd	Degree=Pos	21	advmod	21:advmod	_
 19	по	по	ADP	R	_	21	case	21:case	_
 20	дневния	дневен	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	21:amod	_
@@ -4843,7 +4843,7 @@
 5	,	,	PUNCT	punct	_	8	punct	8:punct	_
 6	ако	ако	SCONJ	Cs	_	8	mark	8:mark	_
 7	не	не	PART	Tn	Polarity=Neg	8	advmod	8:advmod	_
-8	беше	съм	VERB	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:ако	_
+8	беше	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:ако	_
 9	старостта	старост	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
 10	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
@@ -5030,7 +5030,7 @@
 6	само	само	ADV	Dd	Degree=Pos	7	advmod	7:advmod	_
 7	драскаше	драскам	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	и	и	CCONJ	Cp	_	13	cc	13:cc	_
-9	не	не	INTJ	Tn	Polarity=Neg	10	advmod	10:advmod	_
+9	не	не	PART	Tn	Polarity=Neg	10	advmod	10:advmod	_
 10	след	след	ADP	R	_	13	obl	13:obl	_
 11	дълго	дълго	ADV	Dq	Degree=Pos	10	advmod	10:advmod	_
 12	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	13	expl	13:expl	_
@@ -5266,11 +5266,11 @@
 23	надежда	надежда	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	21	obl	21:obl:с	SpaceAfter=No
 24	,	,	PUNCT	punct	_	34	punct	34:punct	_
 25	може	може	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl	28:acl	_
-26	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	fixed	25:fixed	_
-27	не	не	INTJ	Tn	Polarity=Neg	28	advmod	28:advmod	_
+26	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	fixed	25:fixed	_
+27	не	не	PART	Tn	Polarity=Neg	28	advmod	28:advmod	_
 28	сега	сега	ADV	Dt	Degree=Pos	34	advmod	34:advmod	_
 29	и	и	CCONJ	Cp	_	31	cc	31:cc	_
-30	не	не	INTJ	Tn	Polarity=Neg	31	advmod	31:advmod	_
+30	не	не	PART	Tn	Polarity=Neg	31	advmod	31:advmod	_
 31	скоро	скоро	ADV	Dt	Degree=Pos	28	conj	28:conj	_
 32	ще	ще	AUX	Tx	_	34	aux	34:aux	_
 33	я	аз	PRON	Ppetas3f	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	34:obj	_
@@ -5894,8 +5894,8 @@
 12	при	при	ADP	R	_	13	case	13:case	_
 13	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	discourse	19:discourse	_
 14	може	може	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl	19:acl	_
-15	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	fixed	14:fixed	_
-16	не	не	INTJ	Tn	Polarity=Neg	19	advmod	19:advmod	_
+15	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	fixed	14:fixed	_
+16	не	не	PART	Tn	Polarity=Neg	19	advmod	19:advmod	_
 17	в	в	ADP	R	_	19	case	19:case	_
 18	правилната	правилен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	19:amod	_
 19	посока	посока	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obl	3:obl:в	SpaceAfter=No
@@ -5943,7 +5943,7 @@
 17	война	война	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	13:nmod:от	_
 18	все	все	ADV	Dq	Degree=Pos	19	advmod	19:advmod	_
 19	още	още	ADV	Dq	Degree=Pos	20	advmod	20:advmod	_
-20	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	10:conj	_
+20	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	10:conj	_
 21	живи	жив	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	20	obj	20:obj	SpaceAfter=No
 22	...	...	PUNCT	punct	_	1	punct	1:punct	_
 
@@ -6287,7 +6287,7 @@
 9	литература	литература	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	7	obj	7:obj	SpaceAfter=No
 10	,	,	PUNCT	punct	_	7	punct	7:punct	_
 11	не	не	PART	Tn	Polarity=Neg	12	advmod	12:advmod	_
-12	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+12	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 13	от	от	ADP	R	_	12	iobj	12:iobj	_
 14	вчера	вчера	ADV	Dt	Degree=Pos	13	advmod	13:advmod	SpaceAfter=No
 15	.	.	PUNCT	punct	_	12	punct	12:punct	_
@@ -6429,7 +6429,7 @@
 2	тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
 3	точка	точка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	obl	5:obl:по	_
 4	ще	ще	AUX	Tx	_	5	aux	5:aux	_
-5	бъда	бъда	VERB	Vyptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	бъда	бъда	AUX	Vyptf-r1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	кратък	кратък	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	obj	5:obj	SpaceAfter=No
 7	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
@@ -6439,7 +6439,7 @@
 2	така	така	ADV	Pdm	PronType=Dem	16	advmod	16:advmod	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	4:punct	_
 4	а	а	CCONJ	Cp	_	8	cc	8:cc	_
-5	не	не	INTJ	Tn	Polarity=Neg	8	advmod	8:advmod	_
+5	не	не	PART	Tn	Polarity=Neg	8	advmod	8:advmod	_
 6	по	по	ADP	R	_	8	case	8:case	_
 7	друг	друг	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
 8	начин	начин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	conj	2:conj	SpaceAfter=No
@@ -6828,7 +6828,7 @@
 # sent_id = kleinke-s300
 # text = Стресиращо е да се опитваш да наблюдаваш всяка заплаха, която потенциално може да те засегне.
 1	Стресиращо	стресирам	ADJ	Vpitcar-sni	Aspect=Imp|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	obj	2:obj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	да	да	AUX	Tx	_	5	aux	5:aux	_
 4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	5:expl	_
 5	опитваш	опитвам-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	2:csubj	_
@@ -6948,7 +6948,7 @@
 # text = - Може би в рамките на 1000 лв.
 1	-	-	PUNCT	punct	_	8	punct	8:punct	_
 2	Може	може	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	8:acl	_
-3	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	fixed	2:fixed	_
+3	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	fixed	2:fixed	_
 4	в	в	ADP	R	_	8	case	8:case	_
 5	рамките	рамка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	4	fixed	4:fixed	_
 6	на	на	ADP	R	_	4	fixed	4:fixed	_
@@ -6996,7 +6996,7 @@
 # text = - Това е едно от задължителните условия.
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-3	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	едно	един	NUM	Mcnsi	Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	3	obj	3:obj	_
 5	от	от	ADP	R	_	7	case	7:case	_
 6	задължителните	задължителен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	7	amod	7:amod	_
@@ -7449,7 +7449,7 @@
 # sent_id = Novinar-2000-11-16-s42
 # text = Целта е да не се допусне поставянето ни в други, нежелани от нас външно-политически рамки.
 1	Целта	цел	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	да	да	AUX	Tx	_	6	aux	6:aux	_
 4	не	не	PART	Tn	Polarity=Neg	6	advmod	6:advmod	_
 5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	6:expl	_
@@ -7557,7 +7557,7 @@
 # sent_id = Novinar-2000-11-16-s129
 # text = - Да, пестим.
 1	-	-	PUNCT	punct	_	4	punct	4:punct	_
-2	Да	да	INTJ	Ta	_	4	discourse	4:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	4	discourse	4:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	пестим	пестя-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
@@ -7675,7 +7675,7 @@
 4	да	да	AUX	Tx	_	5	aux	5:aux	_
 5	бием	бия-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	2:csubj	_
 6	съдиите	съдия	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	5	obj	5:obj	_
-7	не	не	INTJ	Tn	Polarity=Neg	8	advmod	8:advmod	_
+7	не	не	PART	Tn	Polarity=Neg	8	advmod	8:advmod	_
 8	само	само	ADV	Dd	Degree=Pos	11	advmod	11:advmod	_
 9	по	по	ADP	R	_	11	case	11:case	_
 10	футболните	футболен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	11	amod	11:amod	_
@@ -8068,7 +8068,7 @@
 4	какъвто	какъвто	DET	Pra--s-m	Gender=Masc|Number=Sing|PronType=Rel	8	det	8:det	_
 5	и	и	CCONJ	Cp	_	4	fixed	4:fixed	_
 6	да	да	AUX	Tx	_	4	fixed	4:fixed	_
-7	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	fixed	4:fixed	_
+7	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	fixed	4:fixed	_
 8	кърпеж	кърпеж	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	2:nmod:за	_
 9	на	на	ADP	R	_	11	case	11:case	_
 10	стария	стар	ADJ	Amsh	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	11:amod	_
@@ -8092,7 +8092,7 @@
 4	страни	страна	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	12:nsubj|14:nsubj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	11	punct	11:punct	_
 6	и	и	CCONJ	Cp	_	11	cc	11:cc	_
-7	то	то	PART	Te	_	6	discourse	6:discourse	_
+7	то	то	PART	Te	_	11	discourse	11:discourse	_
 8	само	само	ADV	Dd	Degree=Pos	11	advmod	11:advmod	_
 9	в	в	ADP	R	_	11	case	11:case	_
 10	даденото	дам-(се)	ADJ	Vpptcv--snd	Aspect=Perf|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	amod	11:amod	_
@@ -8613,7 +8613,7 @@
 5	,	,	PUNCT	punct	_	6	punct	6:punct	_
 6	но	но	CCONJ	Cc	_	8	cc	8:cc	_
 7	лошото	лош	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	_
-8	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No
 9	,	,	PUNCT	punct	_	12	punct	12:punct	_
 10	че	че	SCONJ	Cs	_	12	mark	12:mark	_
 11	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	12:expl	_
@@ -8755,7 +8755,7 @@
 # text = - Престъпление е да даваме нашите пари на чужди производители.
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Престъпление	престъпление	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
-3	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	да	да	AUX	Tx	_	5	aux	5:aux	_
 5	даваме	давам-(се)	VERB	Vpitf-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 6	нашите	наш	DET	Pszl-p1-d	Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	7:det	_
@@ -8887,7 +8887,7 @@
 # sent_id = Novinar-2000-11-26-s247
 # text = - Да, ще го разпусна.
 1	-	-	PUNCT	punct	_	6	punct	6:punct	_
-2	Да	да	INTJ	Ta	_	6	discourse	6:discourse	SpaceAfter=No
+2	Да	да	PART	Ta	_	6	discourse	6:discourse	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	ще	ще	AUX	Tx	_	6	aux	6:aux	_
 5	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	6:obj	_
@@ -8898,7 +8898,7 @@
 # text = - Категорично да.
 1	-	-	PUNCT	punct	_	3	punct	3:punct	_
 2	Категорично	категорично	ADV	Dd	Degree=Pos	3	advmod	3:advmod	_
-3	да	да	INTJ	Ta	_	0	root	0:root	SpaceAfter=No
+3	да	да	PART	Ta	_	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = Novinar-2000-11-26-s276
@@ -9298,7 +9298,7 @@
 # sent_id = Novinar-2000-12-02-s46
 # text = 8272 са вече абонатните станции в София с топломери, съобщиха междувременно от столичната "Топлофикация".
 1	8272	8272	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	2	obj	2:obj	_
-2	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	_
+2	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	_
 3	вече	вече	ADV	Dt	Degree=Pos	2	advmod	2:advmod	_
 4	абонатните	абонатен	ADJ	A-pd	Definite=Def|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	станции	станция	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	2:nsubj	_
@@ -9435,7 +9435,7 @@
 # sent_id = Novinar-2000-12-02-s163
 # text = Може би ще засили и вярата ни.
 1	Може	може	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
-2	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	fixed	1:fixed	_
+2	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	fixed	1:fixed	_
 3	ще	ще	AUX	Tx	_	4	aux	4:aux	_
 4	засили	засиля-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	и	и	CCONJ	Cp	_	6	cc	6:cc	_
@@ -9578,7 +9578,7 @@
 8	автомобила	автомобил	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	6	nmod	6:nmod:на	SpaceAfter=No
 9	,	,	PUNCT	punct	_	5	punct	5:punct	_
 10	ще	ще	AUX	Tx	_	11	aux	11:aux	_
-11	бъдат	бъда	VERB	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	бъдат	бъда	AUX	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 12	значително	значително	ADV	Dq	Degree=Pos	13	advmod	13:advmod	_
 13	по-малки	малък	ADJ	A-pi	Definite=Ind|Degree=Cmp|Number=Plur	11	obj	11:obj	SpaceAfter=No
 14	,	,	PUNCT	punct	_	16	punct	16:punct	_
@@ -9779,7 +9779,7 @@
 23	и	и	CCONJ	Cp	_	26	cc	26:cc	_
 24	не	не	PART	Tn	Polarity=Neg	26	advmod	26:advmod	_
 25	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
-26	била	съм	VERB	Vxitcat-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	17	conj	17:conj	_
+26	била	съм	AUX	Vxitcat-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	17	conj	17:conj	_
 27	сътрудник	сътрудник	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	26	obj	26:obj	_
 28	на	на	ADP	R	_	29	case	29:case	_
 29	ДС	дс	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	27	nmod	27:nmod:на	SpaceAfter=No
@@ -10097,7 +10097,7 @@
 
 # sent_id = Novinar-2000-12-06-s141
 # text = , уточни първата US дама.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	уточни	уточня	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	първата	пръв	ADJ	Mofsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	5	amod	5:amod	_
 4	US	us	ADJ	A	Degree=Pos	5	amod	5:amod	_
@@ -10348,7 +10348,7 @@
 # text = Режисьор ще бъде Майкъл Бей.
 1	Режисьор	режисьор	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	obj	3:obj	_
 2	ще	ще	AUX	Tx	_	3	aux	3:aux	_
-3	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	Майкъл	майкъл	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
 5	Бей	бей	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	4	flat	4:flat	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
@@ -10380,7 +10380,7 @@
 # newdoc id = Novinar-2000-12-07
 # sent_id = Novinar-2000-12-07-s216
 # text = , каза Дон Диего.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	каза	кажа	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	Дон	дон	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
 4	Диего	диего	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	3:nmod	SpaceAfter=No
@@ -10536,7 +10536,7 @@
 # sent_id = Novinar-2000-12-08-s112
 # text = Причината е, че в масовия случай младите търсят работа без отговорности.
 1	Причината	причина	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	9	punct	9:punct	_
 4	че	че	SCONJ	Cs	_	9	mark	9:mark	_
 5	в	в	ADP	R	_	7	case	7:case	_
@@ -10714,7 +10714,7 @@
 14	и	и	CCONJ	Cp	_	15	cc	15:cc	_
 15	почина	почина-(си)	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	13:conj	_
 16	преди	преди	ADP	R	_	18	case	18:case	_
-17	около	около	ADP	R	_	18	advmod	18:advmod	_
+17	около	около	ADP	R	_	18	case	18:case	_
 18	месец	месец	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	15	obl	15:obl:преди	SpaceAfter=No
 19	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
@@ -10754,7 +10754,7 @@
 # sent_id = Novinar-2000-12-12-s73
 # text = Наистина е вече крайно време да се вземе решение за изграждането на втора АЕЦ у нас (виж стр. 4).
 1	Наистина	наистина	ADV	Dd	Degree=Pos	2	advmod	2:advmod	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	вече	вече	ADV	Dt	Degree=Pos	5	advmod	5:advmod	_
 4	крайно	краен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
 5	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	obj	2:obj	_
@@ -11024,7 +11024,7 @@
 4	сто	сто	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	2	nmod	2:nmod:на	_
 5	от	от	ADP	R	_	6	case	6:case	_
 6	посевите	посев	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	2	nmod	2:nmod:от	_
-7	били	съм	VERB	Vxitcat-p-i	Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act	13	ccomp	13:ccomp	_
+7	били	съм	AUX	Vxitcat-p-i	Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act	13	ccomp	13:ccomp	_
 8	в	в	ADP	R	_	9	case	9:case	_
 9	процес	процес	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	7	iobj	7:iobj	_
 10	на	на	ADP	R	_	11	case	11:case	_
@@ -11239,7 +11239,7 @@
 # text = - Може би ще се пробвам, щом ще има награда и за непечелившите.
 1	-	-	PUNCT	punct	_	6	punct	6:punct	_
 2	Може	може	VERB	Vniif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
-3	би	съм	VERB	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	fixed	2:fixed	_
+3	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	fixed	2:fixed	_
 4	ще	ще	AUX	Tx	_	6	aux	6:aux	_
 5	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	6:expl	_
 6	пробвам	пробвам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -11256,7 +11256,7 @@
 # sent_id = Novinar-2000-12-13-s265
 # text = Присъдата е заради систематичната политика на армията му да принуждава към проституция жени в окупираните от Япония територии през Втората световна война.
 1	Присъдата	присъда	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	заради	заради	ADP	R	_	5	case	5:case	_
 4	систематичната	систематичен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
 5	политика	политика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	iobj	2:iobj	_
@@ -11420,7 +11420,7 @@
 
 # sent_id = Novinar-2000-12-13-s382
 # text = - заяви треньорът на гостите Игор Приложни.
-1	-	-	PUNCT	punct	_	2	obj	2:obj	_
+1	-	-	PUNCT	punct	_	2	punct	2:punct	_
 2	заяви	заявя	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	треньорът	треньор	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
 4	на	на	ADP	R	_	5	case	5:case	_
@@ -11439,7 +11439,7 @@
 5	много	много	ADV	Md-pi	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	6	advmod	6:advmod	_
 6	резерви	резерва	NOUN	Ncfpi	Definite=Ind|Gender=Fem|Number=Plur	8	ccomp	8:ccomp	SpaceAfter=No
 7	,	,	PUNCT	punct	_	6	punct	6:punct	_
-8	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 9	мотивът	мотив	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	_
 10	на	на	ADP	R	_	11	case	11:case	_
 11	депутатите	депутат	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	9	nmod	9:nmod:на	SpaceAfter=No
@@ -11491,7 +11491,7 @@
 7	,	,	PUNCT	punct	_	10	punct	10:punct	_
 8	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|16:nsubj	_
 9	ми	аз	PRON	Ppetds1	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	10:iobj	_
-10	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+10	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
 11	персонал	персонал	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	10	obj	10:obj	_
 12	в	в	ADP	R	_	13	case	13:case	_
 13	кабинета	кабинет	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	10	obl	10:obl:в	SpaceAfter=No
@@ -11525,7 +11525,7 @@
 12	записалите	запиша-(се)	ADJ	Vpptcao-p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	16	nsubj	16:nsubj	_
 13	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	12:expl	_
 14	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
-15	около	около	ADP	R	_	16	advmod	16:advmod	_
+15	около	около	ADP	R	_	16	case	16:case	_
 16	1000	1000	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	5	conj	5:conj	SpaceAfter=No
 17	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
@@ -11588,7 +11588,7 @@
 # newdoc id = Novinar-2000-12-14
 # sent_id = Novinar-2000-12-14-s127
 # text = - каза още Стоичков.-
-1	-	-	PUNCT	punct	_	2	obj	2:obj	_
+1	-	-	PUNCT	punct	_	2	punct	2:punct	_
 2	каза	кажа	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	още	още	ADV	Dq	Degree=Pos	2	advmod	2:advmod	_
 4	Стоичков	стоичков	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
@@ -12106,7 +12106,7 @@
 17	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
 18	го	аз	PRON	Ppetas3n	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	19:expl	_
 19	използвали	използвам	VERB	Vpitcao-p-i	Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	14	acl:relcl	14:acl:relcl	_
-20	не	не	INTJ	Tn	Polarity=Neg	22	advmod	22:advmod	_
+20	не	не	PART	Tn	Polarity=Neg	22	advmod	22:advmod	_
 21	по	по	ADP	R	_	22	case	22:case	_
 22	предназначение	предназначение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:по	_
 23	по	по	ADP	R	_	24	case	24:case	_
@@ -12349,7 +12349,7 @@
 1	Един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	4	nsubj	4:nsubj	_
 2	от	от	ADP	R	_	3	case	3:case	_
 3	ранените	раня	ADJ	Vpptcv--p-d	Aspect=Perf|Definite=Def|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Pass	1	nmod	1:nmod:от	_
-4	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	в	в	ADP	R	_	7	case	7:case	_
 6	тежко	тежък	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	7:amod	_
 7	състояние	състояние	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	4	iobj	4:iobj	SpaceAfter=No
@@ -12447,7 +12447,7 @@
 25	Атанас	атанас	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	16	conj	16:conj	_
 26	Атанасов	атанасов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	25	flat	25:flat	_
 27	ще	ще	AUX	Tx	_	28	aux	28:aux	_
-28	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	8:conj	_
+28	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	8:conj	_
 29	на	на	ADP	R	_	31	case	31:case	_
 30	14	14	ADJ	Momsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	31	amod	31:amod	_
 31	януари	януари	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	28	iobj	28:iobj	SpaceAfter=No
@@ -12693,7 +12693,7 @@
 6	тази	този	DET	Pde-os-f	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	7:det	_
 7	година	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	9	obl	9:obl	_
 8	ще	ще	AUX	Tx	_	9	aux	9:aux	_
-9	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+9	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
 10	още	още	ADV	Dq	Degree=Pos	11	advmod	11:advmod	_
 11	по-голяма	голям	ADJ	Afsi	Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	9	obj	9:obj	SpaceAfter=No
 12	.	.	PUNCT	punct	_	9	punct	9:punct	_
@@ -12739,7 +12739,7 @@
 # sent_id = Novinar-2001-01-08-s108
 # text = Не е без значение и фактът, че неговата банка е един от водещите кредитори на фалиралата рафинерия.
 1	Не	не	PART	Tn	Polarity=Neg	2	advmod	2:advmod	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	без	без	ADP	R	_	4	case	4:case	_
 4	значение	значение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	iobj	2:iobj	_
 5	и	и	CCONJ	Cp	_	6	cc	6:cc	_
@@ -12748,7 +12748,7 @@
 8	че	че	SCONJ	Cs	_	11	mark	11:mark	_
 9	неговата	мой	DET	Psol-s3fdm	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	10:det	_
 10	банка	банка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	11:nsubj	_
-11	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl:че	_
+11	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl:че	_
 12	един	един	NUM	Mcmsi	Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	11	obj	11:obj	_
 13	от	от	ADP	R	_	15	case	15:case	_
 14	водещите	водя	ADJ	Vpitcar-p-d	Aspect=Imp|Definite=Def|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	15:amod	_
@@ -12892,7 +12892,7 @@
 4	находка	находка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	1:nmod:за	_
 5	била	съм	AUX	Vxitcat-sfi	Aspect=Imp|Definite=Ind|Gender=Fem|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	9	cop	9:cop	_
 6	преди	преди	ADP	R	_	9	case	9:case	_
-7	около	около	ADP	R	_	8	advmod	8:advmod	_
+7	около	около	ADP	R	_	9	case	9:case	_
 8	2	два	NUM	Mcmpi	Definite=Ind|Gender=Masc|Number=Plur|NumType=Card	9	nmod	9:nmod	_
 9	месеца	месец	NOUN	Ncmt	Gender=Masc|Number=Count	0	root	0:root	SpaceAfter=No
 10	.	.	PUNCT	punct	_	9	punct	9:punct	_
@@ -13041,7 +13041,7 @@
 10	имал	имам	VERB	Vpitcam-smi	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Imp|VerbForm=Part|Voice=Act	0	root	0:root	_
 11	качествата	качество	NOUN	Ncnpd	Definite=Def|Gender=Neut|Number=Plur	10	obj	10:obj	_
 12	да	да	AUX	Tx	_	13	aux	13:aux	_
-13	бъде	бъда	VERB	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	11:acl	_
+13	бъде	бъда	AUX	Vyptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	11:acl	_
 14	надпартиен	надпартиен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	obj	13:obj	_
 15	и	и	CCONJ	Cp	_	16	cc	16:cc	_
 16	печеливш	печеливш	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	conj	13:obj|14:conj	SpaceAfter=No
@@ -13179,7 +13179,7 @@
 24	,	,	PUNCT	punct	_	27	punct	27:punct	_
 25	които	който	PRON	Pre-op	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	23:ref	_
 26	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	27:aux	_
-27	били	съм	VERB	Vxitcat-p-i	Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act	23	acl:relcl	23:acl:relcl	_
+27	били	съм	AUX	Vxitcat-p-i	Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act	23	acl:relcl	23:acl:relcl	_
 28	на	на	ADP	R	_	29	case	29:case	_
 29	Балканите	балкан	PROPN	Npmpd	Definite=Def|Gender=Masc|Number=Plur	27	iobj	27:iobj	SpaceAfter=No
 30	.	.	PUNCT	punct	_	13	punct	13:punct	_
@@ -13562,7 +13562,7 @@
 17	,	,	PUNCT	punct	_	7	punct	7:punct	_
 18	най-прекият	пряк	ADJ	Amsf	Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	19	amod	19:amod	_
 19	път	път	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	20	nsubj	20:nsubj	_
-20	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp|7:advmod	_
+20	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp|7:advmod	_
 21	да	да	AUX	Tx	_	23	aux	23:aux	_
 22	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	23	expl	23:expl	_
 23	привличат	привличам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	20:ccomp	_
@@ -13675,7 +13675,7 @@
 20	Шишманов	шишманов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	19:nmod	SpaceAfter=No
 21	,	,	PUNCT	punct	_	22	punct	22:punct	_
 22	а	а	CCONJ	Cp	_	25	cc	25:cc	_
-23	също	също	ADV	Dm	Degree=Pos	24	advmod	24:advmod	_
+23	също	също	ADV	Dm	Degree=Pos	25	advmod	25:advmod	_
 24	и	и	CCONJ	Cp	_	25	cc	25:cc	_
 25	групите	група	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	5	conj	5:conj	_
 26	"	"	PUNCT	punct	_	28	punct	28:punct	SpaceAfter=No
@@ -13807,7 +13807,7 @@
 2	него	аз	PRON	Ppelas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	12:nmod:според	_
 3	това	този	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	12:nsubj	_
 4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-5	не	не	INTJ	Tn	Polarity=Neg	6	advmod	6:advmod	_
+5	не	не	PART	Tn	Polarity=Neg	6	advmod	6:advmod	_
 6	само	само	ADV	Dd	Degree=Pos	12	advmod	12:advmod	_
 7	в	в	ADP	R	_	12	case	12:case	_
 8	интерес	интерес	NOUN	Ncmsi	_	7	fixed	7:fixed	_
@@ -13816,7 +13816,7 @@
 11	етнически	етнически	ADJ	Amsi	_	12	amod	12:amod	_
 12	модел	модел	NOUN	Ncmsi	_	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	punct	_	19	punct	19:punct	_
-14	не	не	INTJ	Tn	Polarity=Neg	15	advmod	15:advmod	_
+14	не	не	PART	Tn	Polarity=Neg	15	advmod	15:advmod	_
 15	само	само	ADV	Dd	Degree=Pos	19	advmod	19:advmod	_
 16	в	в	ADP	R	_	19	case	19:case	_
 17	интерес	интерес	NOUN	Ncmsi	_	16	fixed	16:fixed	_
@@ -13967,7 +13967,7 @@
 3	същността	същност	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
 4	на	на	ADP	R	_	5	case	5:case	_
 5	проблема	проблем	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	3	nmod	3:nmod:на	_
-6	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	28:advcl:така	_
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	28:advcl:така	_
 7	в	в	ADP	R	_	8	case	8:case	_
 8	Косово	косово	PROPN	Npnsi	Definite=Ind|Gender=Neut|Number=Sing	6	iobj	6:iobj	_
 9	и	и	CCONJ	Cp	_	16	cc	16:cc	_
@@ -14219,7 +14219,7 @@
 
 # sent_id = Sega-2000-08-03-s172
 # text = , казаха запалянковците.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	казаха	кажа	VERB	Vpptf-o3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	запалянковците	запалянко	NOUN	Ncmpd	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -14319,7 +14319,7 @@
 # sent_id = Sega-2000-08-03-s257
 # text = Целта е да се намерят следи към атентатора, който във вторник е заложил 20-килограмова бомба пред резиденцията на филипинския посланик.
 1	Целта	цел	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	да	да	AUX	Tx	_	5	aux	5:aux	_
 4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	5:expl	_
 5	намерят	намеря-(се)	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
@@ -14842,7 +14842,7 @@
 
 # sent_id = Sega-2000-08-02-s113
 # text = , обяви Йорданов.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	обяви	обявя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	Йорданов	йорданов	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -14911,7 +14911,7 @@
 20	практика	практика	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	23	obl	23:obl:на	_
 21	не	не	PART	Tn	Polarity=Neg	23	advmod	23:advmod	_
 22	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
-23	било	съм	VERB	Vxitcat-sni	Aspect=Imp|Definite=Ind|Gender=Neut|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	13:advcl	_
+23	било	съм	AUX	Vxitcat-sni	Aspect=Imp|Definite=Ind|Gender=Neut|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	13:advcl	_
 24	възможно	възможен	ADJ	Ansi	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	obj	23:obj	SpaceAfter=No
 25	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
@@ -14982,7 +14982,7 @@
 15	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	16:expl	_
 16	види	видя-(се)	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl:за	_
 17	каква	какъв	DET	Pia--s-f	Gender=Fem|Number=Sing|PronType=Int	18	obj	18:obj	_
-18	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	csubj	16:csubj	_
+18	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	csubj	16:csubj	_
 19	последната	последен	ADJ	Afsd	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	_
 20	им	техен	PRON	Pszt--3	Person=3|Poss=Yes|PronType=Prs	19	det	19:det	_
 21	позиция	позиция	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	18:nsubj	SpaceAfter=No
@@ -15318,7 +15318,7 @@
 
 # sent_id = Sega-2000-08-02-s490
 # text = , завършва Кука.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	завършва	завършвам	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	Кука	кука	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -15492,7 +15492,7 @@
 # text = Ама като съм българка, а по тукашните закони само който докаже действителен турски произход може да се сдобие с такъв...
 1	Ама	ама	CCONJ	Cc	_	3	cc	3:cc	_
 2	като	като	SCONJ	Cs	_	3	mark	3:mark	_
-3	съм	съм	VERB	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	българка	българка	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obj	3:obj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	6	punct	6:punct	_
 6	а	а	CCONJ	Cp	_	16	cc	16:cc	_
@@ -15704,7 +15704,7 @@
 
 # sent_id = Sega-2001-01-02-s316
 # text = , допълни Дони.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	допълни	допълня	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	Дони	дони	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -16585,7 +16585,7 @@
 # sent_id = Sega-2001-01-02-s1089
 # text = И не само че няма да мълча в бъдеще, но ще викам!
 1	И	и	CCONJ	Cp	_	5	cc	5:cc	_
-2	не	не	INTJ	Tn	Polarity=Neg	3	advmod	3:advmod	_
+2	не	не	PART	Tn	Polarity=Neg	3	advmod	3:advmod	_
 3	само	само	ADV	Dd	Degree=Pos	5	cc	5:cc	_
 4	че	че	SCONJ	Cs	_	3	fixed	3:fixed	_
 5	няма	нямам	VERB	Vnitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -16772,7 +16772,7 @@
 15	по	по	ADP	R	_	17	case	17:case	_
 16	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	det	17:det	_
 17	време	време	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	18	obl	18:obl:по	_
-18	бе	съм	VERB	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
+18	бе	съм	AUX	Vxitf-t3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
 19	шеф	шеф	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	18	obj	18:obj	_
 20	на	на	ADP	R	_	21	case	21:case	_
 21	борда	борд	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	19	nmod	19:nmod:на	_
@@ -17522,7 +17522,7 @@
 2	тя	аз	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
 3	все	все	ADV	Dq	Degree=Pos	4	advmod	4:advmod	_
 4	още	още	ADV	Dq	Degree=Pos	5	advmod	5:advmod	_
-5	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	в	в	ADP	R	_	8	case	8:case	_
 7	нашите	наш	DET	Pszl-p1-d	Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	8:det	_
 8	планове	план	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	5	iobj	5:iobj	SpaceAfter=No
@@ -17756,7 +17756,7 @@
 # sent_id = Standard-2000-10-24-s807
 # text = Работата е в това, че наличието на сметка в дадена банка позволява донякъде (разбира се, сметките могат да са няколко и в различни финансови институции) да се оценят финансовите възможности на кандидата за кредит.
 1	Работата	работа	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
-2	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	в	в	ADP	R	_	4	case	4:case	_
 4	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	iobj	2:iobj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	13	punct	13:punct	_
@@ -17776,7 +17776,7 @@
 19	сметките	сметка	NOUN	Ncfpd	Definite=Def|Gender=Fem|Number=Plur	20	nsubj	20:nsubj|22:nsubj	_
 20	могат	мога	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
 21	да	да	AUX	Tx	_	22	aux	22:aux	_
-22	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	xcomp	20:xcomp	_
+22	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	xcomp	20:xcomp	_
 23	няколко	няколко	PRON	Pfq-----i	Definite=Ind|PronType=Ind	22	obj	22:obj	_
 24	и	и	CCONJ	Cp	_	28	cc	28:cc	_
 25	в	в	ADP	R	_	28	case	28:case	_
@@ -18317,7 +18317,7 @@
 1	-	-	PUNCT	punct	_	2	punct	2:punct	_
 2	Определено	определено	ADV	Dm	Degree=Pos	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	4:punct	_
-4	да	да	INTJ	Ta	_	2	discourse	2:discourse	SpaceAfter=No
+4	да	да	PART	Ta	_	2	discourse	2:discourse	SpaceAfter=No
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = Standard-2000-10-31-s417
@@ -18341,7 +18341,7 @@
 17	,	,	PUNCT	punct	_	9	punct	9:punct	_
 18	също	също	ADV	Dm	Degree=Pos	20	advmod	20:advmod	_
 19	не	не	PART	Tn	Polarity=Neg	20	advmod	20:advmod	_
-20	са	съм	VERB	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+20	са	съм	AUX	Vxitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 21	съвсем	съвсем	ADV	Dq	Degree=Pos	22	advmod	22:advmod	_
 22	прави	прав	ADJ	A-pi	Definite=Ind|Degree=Pos|Number=Plur	20	obj	20:obj	SpaceAfter=No
 23	.	.	PUNCT	punct	_	20	punct	20:punct	_
@@ -18438,7 +18438,7 @@
 13	г-н	господин	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	3:nmod	_
 14	Георги	георги	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	13:nmod	_
 15	Пирински	пирински	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	14	flat	14:flat	SpaceAfter=No
-16	,	,	PUNCT	punct	_	3	punct	3:punct	_
+16	,	,	PUNCT	punct	_	17	punct	17:punct	_
 17	определи	определя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 18	изразеното	изразя-(се)	ADJ	Vpptcv--snd	Aspect=Perf|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	19	amod	19:amod	_
 19	мнение	мнение	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	17	obj	17:obj	_
@@ -18607,7 +18607,7 @@
 
 # sent_id = Standard-2000-10-31-s596
 # text = , тъжи се 62-годишен пенсионер.
-1	,	,	PUNCT	punct	_	2	parataxis	2:parataxis	_
+1	,	,	PUNCT	punct	_	2	punct	2:punct	_
 2	тъжи	тъжа-(се)	VERB	Vpiif-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	2:expl	_
 4	62-годишен	62-годишен	ADJ	Amsi	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	5:amod	_
@@ -19149,7 +19149,7 @@
 3	на	на	ADP	R	_	5	case	5:case	_
 4	американското	американски	ADJ	Ansd	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
 5	здравеопазване	здравеопазване	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	2:nmod:на	_
-6	е	съм	VERB	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	в	в	ADP	R	_	8	case	8:case	_
 8	това	този	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	iobj	6:iobj	SpaceAfter=No
 9	,	,	PUNCT	punct	_	27	punct	27:punct	_

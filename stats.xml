@@ -18,18 +18,18 @@
     <tag name="ADJ">13591</tag><!-- нов, друг, български, голям, народен, пръв, държавен, европейски, цял, втори -->
     <tag name="ADP">22097</tag><!-- на, в, за, от, с, по, до, след, като, през -->
     <tag name="ADV">6558</tag><!-- много, още, вчера, само, така, когато, вече, там, защото, обаче -->
-    <tag name="AUX">8777</tag><!-- съм, да, ще, бъда, бивам, би -->
+    <tag name="AUX">9134</tag><!-- съм, да, ще, бъда, бивам, би -->
     <tag name="CCONJ">4860</tag><!-- и, но, а, или, нито, та, ама, ни, ала, тоест -->
     <tag name="DET">2433</tag><!-- този, всеки, един, какъв, наш, мой, свой, такъв, някой, никакъв -->
-    <tag name="INTJ">143</tag><!-- не, да, о, ах, уви, кис, брей, я, дрън-дрън, ех -->
+    <tag name="INTJ">28</tag><!-- о, ах, уви, кис, брей, я, дрън-дрън, ех, здравей, здравейте -->
     <tag name="NOUN">34152</tag><!-- година, страна, време, хора, президент, лев, въпрос, процент, проблем, ден -->
     <tag name="NUM">2106</tag><!-- два, един, три, двама, четири, 10, двадесет, шест, 000, тридесет -->
-    <tag name="PART">2052</tag><!-- не, ли, дори, дали, си, пък, нито, ето, нека, чак -->
+    <tag name="PART">2167</tag><!-- не, ли, дори, дали, си, пък, да, нито, ето, нека -->
     <tag name="PRON">10094</tag><!-- аз, се, който, свой, този, мой, наш, неин, техен, всеки -->
     <tag name="PROPN">8435</tag><!-- българия, софия, иван, европа, ес, сдс, петър, стоянов, костов, георги -->
     <tag name="PUNCT">22058</tag><!-- ., ,, ", -, ?, (, ), :, !, ... -->
     <tag name="SCONJ">1606</tag><!-- че, ако, като, докато, щом, понеже, дорде, следователно, додето -->
-    <tag name="VERB">17185</tag><!-- мога, имам, нямам, съм, кажа, трябва, има, искам, съобщя, стана -->
+    <tag name="VERB">16828</tag><!-- мога, имам, нямам, кажа, трябва, има, искам, съобщя, стана, направя-(се) -->
     <tag name="X">2</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -50,7 +50,7 @@
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">20703</feat><!-- г., България, тя, тази, София, която, година, една, я, години -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26500</feat><!-- той, го, който, този, един, му, него, %, лв., млн. -->
     <feat name="Gender" value="Neut" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">11777</feat><!-- това, време, което, какво, едно, събрание, го, то, всичко, народното -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">138</feat><!-- би, бих, биха, бихте, бихме -->
+    <feat name="Mood" value="Cnd" upos="AUX">138</feat><!-- би, бих, биха, бихте, бихме -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">249</feat><!-- виж, кажи, вземи, опитай, Излез, Прочети, вж., върни, дай, дайте -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">18516</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
     <feat name="Number" value="Count" upos="NOUN">888</feat><!-- %, лв., млн., $, месеца, дни, лева, млрд., пъти, долара -->
@@ -62,7 +62,7 @@
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3246</feat><!-- ни, ми, аз, съм, нас, ние, сме, ме, нашите, искам -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1435</feat><!-- ти, ви, си, те, вие, сте, вас, тебе, можеш, имате -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">18591</feat><!-- е, са, той, му, го, има, бе, няма, може, тя -->
-    <feat name="Polarity" value="Neg" upos="INTJ,PART">1452</feat><!-- не, нито -->
+    <feat name="Polarity" value="Neg" upos="PART">1452</feat><!-- не, нито -->
     <feat name="Poss" value="Yes" upos="DET,PRON">2017</feat><!-- си, му, ни, й, им, ми, нашите, своите, своя, ви -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1927</feat><!-- това, тази, този, тези, така, тук, тъй, тогава, там, толкова -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">542</feat><!-- един, една, някои, едно, нещо, някой, нещата, понякога, някакъв, някаква -->
@@ -72,7 +72,7 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1485</feat><!-- които, който, когато, която, което, както, където, колкото, каквото, дето -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">423</feat><!-- всички, всеки, всичко, всяка, всяко, всякакви, отвсякъде, всичкото, всякакъв, Вси -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">3999</feat><!-- се, си, себе, своите, своя, своята, своето, свой, свои, свое -->
-    <feat name="Tense" value="Imp" upos="VERB">1021</feat><!-- нямаше, имаше, трябваше, щеше, можеше, имало, гледаше, имах, трябвало, щели -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">1021</feat><!-- нямаше, имаше, трябваше, щеше, можеше, имало, гледаше, имах, трябвало, щели -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">5913</feat><!-- бе, беше, бяха, каза, съобщи, заяви, би, стана, обяви, предаде -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">13516</feat><!-- е, са, има, няма, може, бъде, трябва, съм, бъдат, могат -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">18657</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
@@ -81,42 +81,41 @@
     <feat name="Voice" value="Pass" upos="ADJ,VERB">2050</feat><!-- въоръжените, свързани, определен, избран, направено, приета, определени, цитиран, изправени, обединена -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
-    <dep name="acl">526</dep>
-    <dep name="acl:relcl">1072</dep>
+  <deps unique="35">
+    <dep name="acl">527</dep>
+    <dep name="acl:relcl">1075</dep>
     <dep name="advcl">1613</dep>
-    <dep name="advmod">7162</dep>
-    <dep name="amod">11833</dep>
-    <dep name="appos">35</dep>
+    <dep name="advmod">7119</dep>
+    <dep name="amod">11835</dep>
+    <dep name="appos">34</dep>
     <dep name="aux">5295</dep>
     <dep name="aux:pass">930</dep>
-    <dep name="case">21580</dep>
+    <dep name="case">21618</dep>
     <dep name="cc">4865</dep>
-    <dep name="ccomp">2191</dep>
+    <dep name="ccomp">2190</dep>
     <dep name="compound">2</dep>
     <dep name="conj">5568</dep>
     <dep name="cop">2384</dep>
     <dep name="csubj">361</dep>
     <dep name="csubj:pass">90</dep>
-    <dep name="det">3467</dep>
-    <dep name="discourse">690</dep>
-    <dep name="expl">3380</dep>
+    <dep name="det">3462</dep>
+    <dep name="discourse">691</dep>
+    <dep name="expl">3385</dep>
     <dep name="fixed">738</dep>
     <dep name="flat">1695</dep>
     <dep name="goeswith">3</dep>
-    <dep name="iobj">3562</dep>
+    <dep name="iobj">3563</dep>
     <dep name="mark">1839</dep>
     <dep name="nmod">14412</dep>
     <dep name="nsubj">10066</dep>
     <dep name="nsubj:pass">1435</dep>
-    <dep name="nummod">1729</dep>
-    <dep name="obj">6729</dep>
-    <dep name="obl">6477</dep>
-    <dep name="orphan">3</dep>
-    <dep name="parataxis">606</dep>
-    <dep name="punct">21883</dep>
+    <dep name="nummod">1728</dep>
+    <dep name="obj">6721</dep>
+    <dep name="obl">6478</dep>
+    <dep name="parataxis">440</dep>
+    <dep name="punct">22058</dep>
     <dep name="root">11138</dep>
-    <dep name="vocative">57</dep>
+    <dep name="vocative">58</dep>
     <dep name="xcomp">733</dep>
   </deps>
 </treebank>
