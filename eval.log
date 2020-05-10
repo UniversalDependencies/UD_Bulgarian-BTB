@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit 475b1ee727e74242d0b2be1fb20e174283c4b521
+commit fbc22513cea5e01b81125ba7b37cad552fbce563
+Merge: bb75137 3ea59ff
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 20:56:52 2019 +0200
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -17,62 +17,26 @@ Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 99801 out of 156149 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 249 bugs.
+Udapi: found 63 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 156149 words.
 Genres: found 3 out of 17 known.
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
-[Line 1900 Sent random1-s165 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 4628 Sent random5-s644 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5033 Sent bg-lit-s248 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5270 Sent bg-lit-s494 Node 27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5273 Sent bg-lit-s494 Node 30]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5898 Sent euro-s63 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 6442 Sent kamu-s182 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 7678 Sent Novinar-2000-11-16-s202 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 8095 Sent Novinar-2000-11-23-s245 Node 6]: [L3 Syntax leaf-cc] 'cc' not expected to have children (6:и:cc --> 7:то:discourse)
-...suppressing further errors regarding Syntax
-Syntax errors: 29
-*** FAILED *** with 29 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-test.conllu
-[Line 183 Sent akadgram-s193 Node 1]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 306 Sent akadgram-s380 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 4082 Sent random5-s162 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5007 Sent bg-lit-s224 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 5121 Sent bg-lit-s372 Node 1]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obj'
-[Line 5626 Sent constitution-s208 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 6080 Sent girl-s60 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 6188 Sent girl-s150 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 7482 Sent Novinar-2000-11-15-s368 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'VERB'
-...suppressing further errors regarding Syntax
-Syntax errors: 33
-*** FAILED *** with 33 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
-[Line 1684 Sent akadgram-s229 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 2338 Sent akadgram-s350 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 2767 Sent akadgram-s399 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 3572 Sent akadgram-s506 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 6899 Sent brezinski-s163 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 12453 Sent penchev-s581 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 13104 Sent penchev-s677 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:и:cc --> 7:дори:discourse)
-[Line 14072 Sent random1-s91 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
-[Line 15203 Sent random1-s204 Node 10]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
-...suppressing further errors regarding Syntax
-Syntax errors: 278
-*** FAILED *** with 278 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.731179735764206) = 0.187481983529284
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.984053692306707) = 0.302785751478987
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.789342375259381) * (availability=1) * (validity=0.01) = 0.00789342375259381
-STARS = 0
-UD_Bulgarian-BTB	0.00789342375259381	0
+(weight=0.307692307692308) * (score{udapi}=0.995965392029408) = 0.306450889855202
+(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
+(TOTAL score=0.791344311972395) * (availability=1) * (validity=1) = 0.791344311972395
+STARS = 4
+UD_Bulgarian-BTB	0.791344311972395	4
