@@ -1284,7 +1284,7 @@
 # text = Какво мислиш, е важно.
 1	Какво	какъв	DET	Pia--s-n	Gender=Neut|Number=Sing|PronType=Int	2	obj	2:obj	_
 2	мислиш	мисля	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	5:csubj	SpaceAfter=No
-3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 5	важно	важно	ADV	Dm	Degree=Pos	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	punct	_	5	punct	5:punct	_
