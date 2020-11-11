@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit fbc22513cea5e01b81125ba7b37cad552fbce563
-Merge: bb75137 3ea59ff
+commit f1f712a2e965d2a15fc90b65d8abdb257a20212a
+Merge: 25323e8 94f25f0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
@@ -19,7 +19,7 @@ Features: 99801 out of 156149 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 63 bugs.
+Udapi: found 58 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 156149 words.
 Genres: found 3 out of 17 known.
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.731179735764206) = 0.187481983529284
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.995965392029408) = 0.306450889855202
+(weight=0.307692307692308) * (score{udapi}=0.996285599011201) = 0.306549415080369
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.791344311972395) * (availability=1) * (validity=1) = 0.791344311972395
+(TOTAL score=0.791442837197562) * (availability=1) * (validity=1) = 0.791442837197562
 STARS = 4
-UD_Bulgarian-BTB	0.791344311972395	4
+UD_Bulgarian-BTB	0.791442837197562	4
