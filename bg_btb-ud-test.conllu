@@ -4580,8 +4580,8 @@
 1	Запазихме	запазя-(се)	VERB	Vpptf-o1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	духа	дух	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	1	obj	1:obj	_
 3	си	свой	PRON	Psxto	Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	2:det	_
-4	плюс	плюс	ADP	R	_	5	case	5:case	_
-5	ред	ред	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	2:nmod:плюс	_
+4	плюс	плюс	CCONJ	Cp	_	5	cc	5:cc	_
+5	ред	ред	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	conj	2:conj:плюс	_
 6	и	и	CCONJ	Cp	_	7	cc	7:cc	_
 7	дисциплина	дисциплина	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	5	conj	5:conj	SpaceAfter=No
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
