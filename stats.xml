@@ -16,10 +16,10 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">13591</tag><!-- нов, друг, български, голям, народен, пръв, държавен, европейски, цял, втори -->
-    <tag name="ADP">22097</tag><!-- на, в, за, от, с, по, до, след, като, през -->
+    <tag name="ADP">22096</tag><!-- на, в, за, от, с, по, до, след, като, през -->
     <tag name="ADV">6558</tag><!-- много, още, вчера, само, така, когато, вече, там, защото, обаче -->
     <tag name="AUX">9134</tag><!-- съм, да, ще, бъда, бивам, би -->
-    <tag name="CCONJ">4860</tag><!-- и, но, а, или, нито, та, ама, ни, ала, тоест -->
+    <tag name="CCONJ">4861</tag><!-- и, но, а, или, нито, та, ама, ни, ала, тоест -->
     <tag name="DET">2433</tag><!-- този, всеки, един, какъв, наш, мой, свой, такъв, някой, никакъв -->
     <tag name="INTJ">28</tag><!-- о, ах, уви, кис, брей, я, дрън-дрън, ех, здравей, здравейте -->
     <tag name="NOUN">34152</tag><!-- година, страна, време, хора, президент, лев, въпрос, процент, проблем, ден -->
@@ -90,11 +90,11 @@
     <dep name="appos">34</dep>
     <dep name="aux">5295</dep>
     <dep name="aux:pass">930</dep>
-    <dep name="case">21618</dep>
-    <dep name="cc">4865</dep>
+    <dep name="case">21617</dep>
+    <dep name="cc">4866</dep>
     <dep name="ccomp">2190</dep>
     <dep name="compound">2</dep>
-    <dep name="conj">5568</dep>
+    <dep name="conj">5569</dep>
     <dep name="cop">2384</dep>
     <dep name="csubj">361</dep>
     <dep name="csubj:pass">90</dep>
@@ -106,7 +106,7 @@
     <dep name="goeswith">3</dep>
     <dep name="iobj">3563</dep>
     <dep name="mark">1839</dep>
-    <dep name="nmod">14412</dep>
+    <dep name="nmod">14411</dep>
     <dep name="nsubj">10066</dep>
     <dep name="nsubj:pass">1435</dep>
     <dep name="nummod">1728</dep>
