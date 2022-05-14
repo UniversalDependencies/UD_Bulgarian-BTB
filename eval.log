@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit c2ae98d4dd3a577e95b6938083d78aee0e7cd792
+commit 7ee35b921b2da60084e1807f8392ac60679ca7d1
+Merge: d9ff3ab 9c7f2f3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 08:53:34 2021 +0200
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,10 +27,21 @@ Genres: found 3 out of 17 known.
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
 *** PASSED ***
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-test.conllu
-*** PASSED ***
+[Line 13186 Sent Novinar-2001-01-08-s511 Node 13]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 13187 Sent Novinar-2001-01-08-s511 Node 14]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 13188 Sent Novinar-2001-01-08-s511 Node 15]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+Morpho errors: 3
+*** FAILED *** with 3 errors
+Exit code: 1
 validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 33197 Sent random5-s328 Node 1]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 33198 Sent random5-s328 Node 2]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 33198 Sent random5-s328 Node 2]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 33198 Sent random5-s328 Node 2]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+Morpho errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +50,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.996285599011201) = 0.306549415080369
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.791442837197562) * (availability=1) * (validity=1) = 0.791442837197562
-STARS = 4
-UD_Bulgarian-BTB	0.791442837197562	4
+(TOTAL score=0.791442837197562) * (availability=1) * (validity=0.01) = 0.00791442837197562
+STARS = 0
+UD_Bulgarian-BTB	0.00791442837197562	0
