@@ -13182,10 +13182,10 @@
 9	да	да	AUX	Tx	_	11	aux	11:aux	_
 10	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	11:expl	_
 11	очакват	очаквам	VERB	Vpitf-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
-12	по	по	ADP	R	_	13	case	13:case	_
-13	2	2-3	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	16	nmod	16:nmod:по	_
-14	-	_	NUM	Mc-pi	_	13	goeswith	13:goeswith	_
-15	3	_	NUM	Mc-pi	_	13	goeswith	13:goeswith	_
+12	по	по	ADP	R	_	13	case	13:case|15:case	_
+13	2	2	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	16	nummod	16:nummod	_
+14	-	-	PUNCT	Mc-pi	_	15	punct	13:punct	_
+15	3	3	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	13	conj	13:conj|16:nummod	_
 16	случая	случай	NOUN	Ncmt	Gender=Masc|Number=Count	11	nsubj:pass	11:nsubj:pass	_
 17	всяка	всеки	DET	Pce-os-f	Gender=Fem|Number=Sing|PronType=Tot	18	det	18:det	_
 18	година	година	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	16:nmod	SpaceAfter=No
