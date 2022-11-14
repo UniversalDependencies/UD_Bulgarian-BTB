@@ -10,7 +10,7 @@
     <dev><sentences>1115</sentences><tokens>16089</tokens><words>16089</words><fused>0</fused></dev>
     <test><sentences>1116</sentences><tokens>15724</tokens><words>15724</words><fused>0</fused></test>
   </size>
-  <lemmas unique="14884" /><!-- ., ,, на, съм, и, аз, в, да, се, за, ", от, с, не, този -->
+  <lemmas unique="14885" /><!-- ., ,, на, съм, и, аз, в, да, се, за, ", от, с, не, този -->
   <forms unique="26370" /><!-- ., ,, на, и, в, да, се, за, ", от, е, с, не, ще, си -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -23,11 +23,11 @@
     <tag name="DET">2433</tag><!-- този, всеки, един, какъв, наш, мой, свой, такъв, някой, никакъв -->
     <tag name="INTJ">28</tag><!-- о, ах, уви, кис, брей, я, дрън-дрън, ех, здравей, здравейте -->
     <tag name="NOUN">34152</tag><!-- година, страна, време, хора, президент, лев, въпрос, процент, проблем, ден -->
-    <tag name="NUM">2106</tag><!-- два, един, три, двама, четири, 10, двадесет, шест, 000, тридесет -->
+    <tag name="NUM">2105</tag><!-- два, един, три, двама, четири, 10, двадесет, шест, 000, тридесет -->
     <tag name="PART">2167</tag><!-- не, ли, дори, дали, си, пък, да, нито, ето, нека -->
     <tag name="PRON">10094</tag><!-- аз, се, който, свой, този, мой, наш, неин, техен, всеки -->
     <tag name="PROPN">8435</tag><!-- българия, софия, иван, европа, ес, сдс, петър, стоянов, костов, георги -->
-    <tag name="PUNCT">22058</tag><!-- ., ,, ", -, ?, (, ), :, !, ... -->
+    <tag name="PUNCT">22059</tag><!-- ., ,, ", -, ?, (, ), :, !, ... -->
     <tag name="SCONJ">1606</tag><!-- че, ако, като, докато, щом, понеже, дорде, следователно, додето -->
     <tag name="VERB">16828</tag><!-- мога, имам, нямам, кажа, трябва, има, искам, съобщя, стана, направя-(се) -->
     <tag name="X">2</tag><!-- _ -->
@@ -42,7 +42,7 @@
     <feat name="Case" value="Nom" upos="DET,PRON">4831</feat><!-- това, си, той, които, който, тя, те, всички, тази, която -->
     <feat name="Case" value="Voc" upos="ADJ,PROPN">29</feat><!-- Нови, уважаеми, драги, млади, Велики, Господи, Калине, Преподобни, Янке, други -->
     <feat name="Definite" value="Def" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">19191</feat><!-- хората, президентът, страната, края, народното, българската, държавата, правителството, закона, отбраната -->
-    <feat name="Definite" value="Ind" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">42088</feat><!-- г., България, много, време, София, година, един, една, години, повече -->
+    <feat name="Definite" value="Ind" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">42089</feat><!-- г., България, много, време, София, година, един, една, години, повече -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,VERB">343</feat><!-- по-късно, по-малко, по-голяма, по-добре, по-голямата, по-голямо, по-големи, по-голям, по-силно, по-бързо -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,PROPN,VERB">17713</feat><!-- още, много, вчера, само, вече, обаче, сега, повече, все, днес -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">340</feat><!-- най-много, най-вече, най-добрият, най-сетне, най-често, най-големите, най-добре, най-добрите, най-малко, най-голям -->
@@ -54,10 +54,10 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">249</feat><!-- виж, кажи, вземи, опитай, Излез, Прочети, вж., върни, дай, дайте -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">18516</feat><!-- е, са, има, бе, няма, може, бъде, беше, трябва, бяха -->
     <feat name="Number" value="Count" upos="NOUN">888</feat><!-- %, лв., млн., $, месеца, дни, лева, млрд., пъти, долара -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">23787</feat><!-- са, които, много, те, всички, тези, бяха, г., ги, години -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">23788</feat><!-- са, които, много, те, всички, тези, бяха, г., ги, години -->
     <feat name="Number" value="Ptan" upos="NOUN,PROPN">333</feat><!-- хората, хора, души, преговори, преговорите, финансите, Кремиковци, боеприпаси, книжа, книжата -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">62755</feat><!-- е, това, той, го, има, България, бе, който, няма, може -->
-    <feat name="NumType" value="Card" upos="ADV,NUM">2720</feat><!-- много, повече, две, един, два, 2, една, 1, 3, толкова -->
+    <feat name="NumType" value="Card" upos="ADV,NUM">2721</feat><!-- много, повече, две, един, два, 2, една, 1, 3, толкова -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM">909</feat><!-- 2001, 2000, първата, първите, 1, втори, първи, 1998, II, втора -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">3246</feat><!-- ни, ми, аз, съм, нас, ние, сме, ме, нашите, искам -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1435</feat><!-- ти, ви, си, те, вие, сте, вас, тебе, можеш, имате -->
@@ -92,28 +92,28 @@
     <dep name="aux:pass">930</dep>
     <dep name="case">21617</dep>
     <dep name="cc">4866</dep>
-    <dep name="ccomp">2190</dep>
+    <dep name="ccomp">2189</dep>
     <dep name="compound">2</dep>
-    <dep name="conj">5569</dep>
-    <dep name="cop">2384</dep>
+    <dep name="conj">5570</dep>
+    <dep name="cop">2385</dep>
     <dep name="csubj">361</dep>
     <dep name="csubj:pass">90</dep>
     <dep name="det">3462</dep>
     <dep name="discourse">691</dep>
     <dep name="expl">3385</dep>
-    <dep name="fixed">738</dep>
+    <dep name="fixed">739</dep>
     <dep name="flat">1695</dep>
-    <dep name="goeswith">3</dep>
     <dep name="iobj">3563</dep>
     <dep name="mark">1839</dep>
-    <dep name="nmod">14411</dep>
-    <dep name="nsubj">10066</dep>
+    <dep name="nmod">14410</dep>
+    <dep name="nsubj">10064</dep>
+    <dep name="nsubj:outer">2</dep>
     <dep name="nsubj:pass">1435</dep>
-    <dep name="nummod">1728</dep>
+    <dep name="nummod">1729</dep>
     <dep name="obj">6721</dep>
     <dep name="obl">6478</dep>
     <dep name="parataxis">440</dep>
-    <dep name="punct">22058</dep>
+    <dep name="punct">22059</dep>
     <dep name="root">11138</dep>
     <dep name="vocative">58</dep>
     <dep name="xcomp">733</dep>
