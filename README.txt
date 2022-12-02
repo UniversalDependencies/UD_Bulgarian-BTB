@@ -37,6 +37,8 @@ We also would like to thank our annotator and validator to the treebank UD versi
 
 # References
 
+Petya Osenova and Kiril Simov. 2015. Universalizing BulTreeBank: a Linguistic Tale about Glocalization. In: Proceedings of BSNLP 2015, Hissar, Bulgaria, pp. 81–89.
+
 Petya Osenova and Kiril Simov. BTB-TR05: BulTreeBank Stylebook. BulTreeBank
 Project Technical Report № 05. 2004. Link:
 http://www.bultreebank.org/TechRep/BTB-TR05.pdf
