@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit 0ee90f49f357bb4f1bfa12271bc79dd007759fd6
+commit b39e2e8c3e7622eb0ced0df2faa5f15b73bebffb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:33:08 2023 +0100
+Date:   Sun May 5 11:56:08 2024 +0200
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,6 +27,8 @@ Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-test.conllu
+[Line 14805 Sent Sega-2000-08-02-s333 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Нещата:det --> 3:лятото:nmod)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
 *** PASSED ***
