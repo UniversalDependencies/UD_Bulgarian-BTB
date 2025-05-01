@@ -19,9 +19,9 @@
 
 # sent_id = akadgram-s14
 # text = Да не би да съм закъснял?
-1	Да	да	AUX	Tx	ExtPos=PART	6	discourse	6:discourse	_
-2	не	не	PART	Tn	Polarity=Neg	1	fixed	1:fixed	_
-3	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	fixed	1:fixed	_
+1	Да	да	AUX	Tx	_	6	aux	6:aux	_
+2	не	не	PART	Tn	Polarity=Neg	6	advmod	6:advmod	_
+3	би	съм	AUX	Vxitu-o3s	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
 4	да	да	AUX	Tx	_	6	aux	6:aux	_
 5	съм	съм	AUX	Vxitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 6	закъснял	закъснея	VERB	Vppicao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
