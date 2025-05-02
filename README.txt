@@ -172,7 +172,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin; Zeman, Dan
+Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin; Zeman, Daniel
 Contributing: elsewhere
 Contact: kivs@bultreebank.org, petya@bultreebank.org
 ===============================================================================
