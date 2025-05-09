@@ -119,6 +119,9 @@ divided by 10, the reminder is 1.
 
 Changelog
 ---------
+2.15 -> 2.16
+
+Added ExtPos to expressions with fixed relation.
 
 2.2 -> 2.3
 
@@ -169,7 +172,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin
+Contributors: Simov, Kiril; Osenova, Petya; Popel, Martin; Zeman, Daniel
 Contributing: elsewhere
 Contact: kivs@bultreebank.org, petya@bultreebank.org
 ===============================================================================
