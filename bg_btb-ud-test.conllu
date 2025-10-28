@@ -1353,7 +1353,7 @@
 2	ще	ще	AUX	Tx	_	3	aux	3:aux	_
 3	отиде	отида-(си)	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root|7:obj	SpaceAfter=No
 4	,	,	PUNCT	punct	_	7	punct	7:punct	_
-5	където	където	ADV	Prl	PronType=Rel	7	obj	3:ref	_
+5	където	където	ADV	Prl	PronType=Rel	7	iobj	3:ref	_
 6	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	_
 7	пратят	пратя	VERB	Vpptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
