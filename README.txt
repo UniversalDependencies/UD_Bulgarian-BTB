@@ -166,6 +166,7 @@ Automatic addition of enhanced dependencies.
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: news legal fiction
 Lemmas: converted from manual
 UPOS: converted from manual
