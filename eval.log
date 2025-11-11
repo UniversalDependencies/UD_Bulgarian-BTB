@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Bulgarian-BTB:
-commit 13f80ce745ceba935b1aa656e69444bd1c02f102
-Merge: ac5d0c3 ddcce20
+commit 2810b412509e5bd265d81066ef0a87d0918a04e4
+Merge: f87fec9 228d546
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'bg_btb'
+Language code (from CoNLL-U file name) = 'bg'
+Found the following data files: bg_btb-ud-dev.conllu, bg_btb-ud-test.conllu, bg_btb-ud-train.conllu
 Size: counted 156149 of 156149 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1016213592199.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,10 +23,6 @@ Features: 100240 out of 156149 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL          3
-Udapi: found 3 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 156149 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
 *** PASSED ***
@@ -31,14 +31,13 @@ Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.731179735764206) = 0.187481983529284
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.999807875810924) = 0.307633192557207
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.790109265198227) * (availability=1) * (validity=1) = 0.790109265198227
-STARS = 4
-UD_Bulgarian-BTB	0.790109265198227	4
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.731179735764206) = 0.270807309542299
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
+(TOTAL score=0.696909882703695) * (availability=1) * (validity=1) = 0.696909882703695
+STARS = 3.5
+UD_Bulgarian-BTB	0.696909882703695	3.5
