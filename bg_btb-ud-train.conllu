@@ -48229,7 +48229,6 @@
 
 # sent_id = girl-s137
 # text = Проблемът с измамата е, че ти само м.... с... си (попълни празното място).
-#
 # ToDoOrigtext = Проблемът с измамата е, че ти само м. мамиш с... си (попълни празното място).
 1	Проблемът	проблем	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
 2	с	с	ADP	R	_	3	case	3:case	_
@@ -58752,7 +58751,6 @@
 
 # sent_id = Novinar-2000-11-16-s25
 # text = В атака има по-голяма конкуренция макар че се стремя на всеки пост да разполагам поне с двама.
-#
 # ToDoOrigtext = В атака има по-голяма конкуренция, макар че се стремя на всеки пост да разполагам поне с двама.
 1	В	в	ADP	R	_	2	case	2:case	_
 2	атака	атака	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	3	obl	3:obl:в	_
@@ -71700,7 +71698,6 @@
 
 # sent_id = Novinar-2000-12-01-s44
 # text = Около 90 % от тези депозити са на граждани.
-#
 # ToDoOrigtext = Около 90 % от тези депозитите са на граждани.
 1	Около	около	ADP	R	_	3	case	3:case	_
 2	90	деветдесет	NUM	Mc-pi	Definite=Ind|Number=Plur|NumType=Card	3	nummod	3:nummod	_
