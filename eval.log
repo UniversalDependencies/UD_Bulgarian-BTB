@@ -1,43 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Bulgarian-BTB:
-commit 2810b412509e5bd265d81066ef0a87d0918a04e4
-Merge: f87fec9 228d546
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'bg_btb'
-Language code (from CoNLL-U file name) = 'bg'
-Found the following data files: bg_btb-ud-dev.conllu, bg_btb-ud-test.conllu, bg_btb-ud-train.conllu
-Size: counted 156149 of 156149 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.1016213592199.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Found more than 10000 training words.
-Split: Found at least 10000 development words.
-Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 16 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 100240 out of 156149 total words have one or more features.
-Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.8.
-Genres: found 3 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-dev.conllu
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-test.conllu
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang bg --max-err=10 UD_Bulgarian-BTB/bg_btb-ud-train.conllu
-*** PASSED ***
-Validity: 1
-(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
-(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
-(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.731179735764206) = 0.270807309542299
-(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
-(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
-(TOTAL score=0.696909882703695) * (availability=1) * (validity=1) = 0.696909882703695
-STARS = 3.5
-UD_Bulgarian-BTB	0.696909882703695	3.5
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
